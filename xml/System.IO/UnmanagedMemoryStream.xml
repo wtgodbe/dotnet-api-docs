@@ -127,7 +127,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
@@ -161,7 +161,7 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="pointer" /> value is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="length" /> value is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="length" /> is large enough to cause an overflow.</exception>
         <permission cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode">for accessing unmanaged memory.</permission>
@@ -239,7 +239,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
@@ -281,11 +281,11 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="pointer" /> value is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="length" /> value is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="capacity" /> value is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="length" /> value is greater than the <paramref name="capacity" /> value.</exception>
         <permission cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode">for accessing unmanaged memory.</permission>
@@ -693,7 +693,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- If the operation isn’t cancelled, the <xref:System.IO.UnmanagedMemoryStream> calls the <xref:System.IO.UnmanagedMemoryStream.Flush%2A> method, which means that no action performed.  
+ If the operation isn't cancelled, the <xref:System.IO.UnmanagedMemoryStream> calls the <xref:System.IO.UnmanagedMemoryStream.Flush%2A> method, which means that no action performed.  
   
  ]]></format>
         </remarks>
@@ -735,7 +735,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
@@ -769,11 +769,11 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="pointer" /> value is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="length" /> value is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="capacity" /> value is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="length" /> value is large enough to cause an overflow.</exception>
         <permission cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode">for accessing unmanaged memory.</permission>
@@ -967,7 +967,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
@@ -1074,8 +1074,8 @@
         <Parameter Name="count" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="buffer">When this method returns, contains the specified byte array with the values between <c>offset</c> and (<c>offset</c> + <c>count</c> - 1) replaced by the bytes read from the current source. This parameter is passed uninitialized.</param>
-        <param name="offset">The zero-based byte offset in <c>buffer</c> at which to begin storing the data read from the current stream.</param>
+        <param name="buffer">When this method returns, contains the specified byte array with the values between <paramref name="offset" /> and (<paramref name="offset" /> + <paramref name="count" /> - 1) replaced by the bytes read from the current source. This parameter is passed uninitialized.</param>
+        <param name="offset">The zero-based byte offset in <paramref name="buffer" /> at which to begin storing the data read from the current stream.</param>
         <param name="count">The maximum number of bytes to read from the current stream.</param>
         <summary>Reads the specified number of bytes into the specified array.</summary>
         <returns>The total number of bytes read into the buffer. This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.</returns>
@@ -1099,13 +1099,13 @@
         <exception cref="T:System.ObjectDisposedException">The stream is closed.</exception>
         <exception cref="T:System.NotSupportedException">The underlying memory does not support reading.  
   
- \- or -  
+-or-
   
  The <see cref="P:System.IO.UnmanagedMemoryStream.CanRead" /> property is set to <see langword="false" />.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="buffer" /> parameter is set to <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="offset" /> parameter is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="count" /> parameter is less than zero.</exception>
         <exception cref="T:System.ArgumentException">The length of the buffer array minus the <paramref name="offset" /> parameter is less than the <paramref name="count" /> parameter.</exception>
@@ -1152,7 +1152,7 @@
       </Parameters>
       <Docs>
         <param name="buffer">The buffer to write the data into.</param>
-        <param name="offset">The byte offset in <c>buffer</c> at which to begin writing data from the stream.</param>
+        <param name="offset">The byte offset in <paramref name="buffer" /> at which to begin writing data from the stream.</param>
         <param name="count">The maximum number of bytes to read.</param>
         <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see cref="P:System.Threading.CancellationToken.None" />.</param>
         <summary>Asynchronously reads the specified number of bytes into the specified array.  
@@ -1226,7 +1226,7 @@
         <exception cref="T:System.ObjectDisposedException">The stream is closed.</exception>
         <exception cref="T:System.NotSupportedException">The underlying memory does not support reading.  
   
- \- or -  
+-or-
   
  The current position is at the end of the stream.</exception>
       </Docs>
@@ -1340,12 +1340,12 @@
         <exception cref="T:System.ObjectDisposedException">The stream is closed.</exception>
         <exception cref="T:System.NotSupportedException">The underlying memory does not support writing.  
   
- \- or -  
+-or-
   
  An attempt is made to write to the stream and the <see cref="P:System.IO.UnmanagedMemoryStream.CanWrite" /> property is <see langword="false" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The specified <paramref name="value" /> exceeds the capacity of the stream.  
   
- \- or -  
+-or-
   
  The specified <paramref name="value" /> is negative.</exception>
       </Docs>
@@ -1446,15 +1446,15 @@
         <exception cref="T:System.ObjectDisposedException">The stream is closed.</exception>
         <exception cref="T:System.NotSupportedException">The underlying memory does not support writing.  
   
- \- or -  
+-or-
   
  An attempt is made to write to the stream and the <see cref="P:System.IO.UnmanagedMemoryStream.CanWrite" /> property is <see langword="false" />.  
   
- \- or -  
+-or-
   
  The <paramref name="count" /> value is greater than the capacity of the stream.  
   
- \- or -  
+-or-
   
  The position is at the end of the stream capacity.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurs.</exception>
@@ -1504,7 +1504,7 @@
       </Parameters>
       <Docs>
         <param name="buffer">The buffer to write data from.</param>
-        <param name="offset">The zero-based byte offset in <c>buffer</c> from which to begin copying bytes to the stream.</param>
+        <param name="offset">The zero-based byte offset in <paramref name="buffer" /> from which to begin copying bytes to the stream.</param>
         <param name="count">The maximum number of bytes to write.</param>
         <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see cref="P:System.Threading.CancellationToken.None" />.</param>
         <summary>Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests.  
@@ -1575,11 +1575,11 @@
         <exception cref="T:System.ObjectDisposedException">The stream is closed.</exception>
         <exception cref="T:System.NotSupportedException">The underlying memory does not support writing.  
   
- \- or -  
+-or-
   
  An attempt is made to write to the stream and the <see cref="P:System.IO.UnmanagedMemoryStream.CanWrite" /> property is <see langword="false" />.  
   
- \- or -  
+-or-
   
  The current position is at the end of the capacity of the stream.</exception>
         <exception cref="T:System.IO.IOException">The supplied <paramref name="value" /> causes the stream exceed its maximum capacity.</exception>

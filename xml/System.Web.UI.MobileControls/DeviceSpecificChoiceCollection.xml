@@ -113,7 +113,7 @@
         <Parameter Name="choice" Type="System.Web.UI.MobileControls.DeviceSpecificChoice" />
       </Parameters>
       <Docs>
-        <param name="index">The location in the collection at which to add <c>choice</c>.</param>
+        <param name="index">The location in the collection at which to add <paramref name="choice" />.</param>
         <param name="choice">The <see cref="T:System.Web.UI.MobileControls.DeviceSpecificChoice" /> to add to the collection.</param>
         <summary>Adds a choice at the location in the collection specified by the <paramref name="index" /> parameter. This API is obsolete. For information about how to develop ASP.NET mobile applications, see <see href="https://docs.microsoft.com/aspnet/mobile/overview">Mobile Apps &amp; Sites with ASP.NET</see>.</summary>
         <remarks>
@@ -150,10 +150,7 @@
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Web.UI.PersistenceMode</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Web.UI.PersistenceMode(System.Web.UI.PersistenceMode.InnerDefaultProperty)</AttributeName>
         </Attribute>
       </Attributes>

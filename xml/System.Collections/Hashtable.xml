@@ -58,8 +58,8 @@
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -71,7 +71,7 @@
 
 Each element is a key/value pair stored in a <xref:System.Collections.DictionaryEntry> object. A key cannot be `null`, but a value can be.  
 
->  [!IMPORTANT]
+> [!IMPORTANT]
 >  We don't recommend that you use the `Hashtable` class for new development. Instead, we recommend that you use the generic <xref:System.Collections.Generic.HashSet%601> class. For more information, see [Non-generic collections shouldn't be used](https://github.com/dotnet/platform-compat/blob/master/docs/DE0006.md) on GitHub.
   
  The objects used as keys by a <xref:System.Collections.Hashtable> are required to override the <xref:System.Object.GetHashCode%2A?displayProperty=nameWithType> method (or the <xref:System.Collections.IHashCodeProvider> interface) and the <xref:System.Object.Equals%2A?displayProperty=nameWithType> method (or the <xref:System.Collections.IComparer> interface). The implementation of both methods and interfaces must handle case sensitivity the same way; otherwise, the <xref:System.Collections.Hashtable> might behave incorrectly. For example, when creating a <xref:System.Collections.Hashtable>, you must use the <xref:System.Collections.CaseInsensitiveHashCodeProvider> class (or any case-insensitive <xref:System.Collections.IHashCodeProvider> implementation) with the <xref:System.Collections.CaseInsensitiveComparer> class (or any case-insensitive <xref:System.Collections.IComparer> implementation).  
@@ -90,7 +90,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
   
  The capacity of a <xref:System.Collections.Hashtable> is the number of elements the <xref:System.Collections.Hashtable> can hold. As elements are added to a <xref:System.Collections.Hashtable>, the capacity is automatically increased as required through reallocation.  
   
- For very large <xref:System.Collections.Hashtable> objects, you can increase the maximum capacity to 2 billion elements on a 64-bit system by setting the `enabled` attribute of the  configuration element to `true` in the run-time environment.  
+ **.NET Framework only:** For very large <xref:System.Collections.Hashtable> objects, you can increase the maximum capacity to 2 billion elements on a 64-bit system by setting the `enabled` attribute of the [`<gcAllowVeryLargeObjects>`](~/docs/framework/configure-apps/file-schema/runtime/gcallowverylargeobjects-element.md) configuration element to `true` in the run-time environment.  
   
  The `foreach` statement of the C# language (`For Each` in Visual Basic) returns an object of the type of the elements in the collection. Since each element of the <xref:System.Collections.Hashtable> is a key/value pair, the element type is not the type of the key or the type of the value. Instead, the element type is <xref:System.Collections.DictionaryEntry>. For example:  
   
@@ -592,7 +592,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use Hashtable(IEqualityComparer) instead.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -894,7 +894,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use Hashtable(IDictionary, IEqualityComparer) instead.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -1069,7 +1069,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use Hashtable(int, IEqualityComparer) instead.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -1241,7 +1241,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use Hashtable(IDictionary, float, IEqualityComparer) instead.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -1334,7 +1334,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use Hashtable(int, float, IEqualityComparer) instead.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -1634,7 +1634,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use KeyComparer properties.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -1711,7 +1711,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
   
  This method is an O(1) operation.  
   
- Starting with the .NET Framework 2.0, this method uses the collection’s objects’ <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods on `item` to determine whether item exists. In the earlier versions of the .NET Framework, this determination was made by using the <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods of the `item` parameter on the objects in the collection.  
+ Starting with the .NET Framework 2.0, this method uses the collection's objects' <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods on `item` to determine whether item exists. In the earlier versions of the .NET Framework, this determination was made by using the <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods of the `item` parameter on the objects in the collection.  
   
    
   
@@ -1777,7 +1777,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
   
  This method is an O(1) operation.  
   
- Starting with the .NET Framework 2.0, this method uses the collection’s objects’ <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods on `item` to determine whether item exists. In the earlier versions of the .NET Framework, this determination was made by using the <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods of the `item` parameter on the objects in the collection.  
+ Starting with the .NET Framework 2.0, this method uses the collection's objects' <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods on `item` to determine whether item exists. In the earlier versions of the .NET Framework, this determination was made by using the <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods of the `item` parameter on the objects in the collection.  
   
    
   
@@ -1843,7 +1843,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
   
  This method performs a linear search; therefore, this method is an O(`n`) operation, where `n` is <xref:System.Collections.Hashtable.Count%2A>.  
   
- Starting with the .NET Framework 2.0, this method uses the collection’s objects’ <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods on `item` to determine whether item exists. In the earlier versions of the .NET Framework, this determination was made by using the <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods of the `item` parameter on the objects in the collection.  
+ Starting with the .NET Framework 2.0, this method uses the collection's objects' <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods on `item` to determine whether item exists. In the earlier versions of the .NET Framework, this determination was made by using the <xref:System.Object.Equals%2A> and <xref:System.IComparable.CompareTo%2A> methods of the `item` parameter on the objects in the collection.  
   
    
   
@@ -2269,7 +2269,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use EqualityComparer property.")</AttributeName>
         </Attribute>
       </Attributes>
@@ -2520,7 +2520,7 @@ Each element is a key/value pair stored in a <xref:System.Collections.Dictionary
   
  Retrieving the value of this property is an O(1) operation; setting the property is also an O(1) operation.  
   
- The C# language uses the  keyword to define the indexers instead of implementing the <xref:System.Collections.IList.Item%2A> property. Visual Basic implements <xref:System.Collections.Hashtable.Item%2A> as a default property, which provides the same indexing functionality.  
+ The C# language uses the [`this`](~/docs/csharp/language-reference/keywords/this.md) keyword to define the indexers instead of implementing the <xref:System.Collections.IList.Item%2A> property. Visual Basic implements <xref:System.Collections.Hashtable.Item%2A> as a default property, which provides the same indexing functionality.  
   
  ]]></format>
         </remarks>

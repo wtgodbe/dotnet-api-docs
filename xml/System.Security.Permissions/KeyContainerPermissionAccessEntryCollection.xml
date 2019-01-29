@@ -31,8 +31,8 @@
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -205,7 +205,7 @@
       </Parameters>
       <Docs>
         <param name="array">The one-dimensional <see cref="T:System.Security.Permissions.KeyContainerPermissionAccessEntry" /> array that is the destination of the elements copied from the current collection.</param>
-        <param name="index">The index in <c>array</c> at which copying begins.</param>
+        <param name="index">The index in <paramref name="array" /> at which copying begins.</param>
         <summary>Copies the elements of the collection to a compatible one-dimensional array, starting at the specified index of the target array.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -336,12 +336,12 @@
       <Docs>
         <param name="accessEntry">The <see cref="T:System.Security.Permissions.KeyContainerPermissionAccessEntry" /> object to locate.</param>
         <summary>Gets the index in the collection of the specified <see cref="T:System.Security.Permissions.KeyContainerPermissionAccessEntry" /> object, if it exists in the collection.</summary>
-        <returns>The index of the specified <see cref="T:System.Security.Permissions.KeyContainerPermissionAccessEntry" /> object in the collection, or –1 if no match is found.</returns>
+        <returns>The index of the specified <see cref="T:System.Security.Permissions.KeyContainerPermissionAccessEntry" /> object in the collection, or -1 if no match is found.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Use this method to determine the index number of the specified <xref:System.Security.Permissions.KeyContainerPermissionAccessEntry> object in the collection. If the specified <xref:System.Security.Permissions.KeyContainerPermissionAccessEntry> object is not found, an value of –1 is returned.  
+ Use this method to determine the index number of the specified <xref:System.Security.Permissions.KeyContainerPermissionAccessEntry> object in the collection. If the specified <xref:System.Security.Permissions.KeyContainerPermissionAccessEntry> object is not found, an value of -1 is returned.  
   
  ]]></format>
         </remarks>
@@ -541,7 +541,7 @@
       </Parameters>
       <Docs>
         <param name="array">The one-dimensional array that is the destination of the elements copied from the current collection.</param>
-        <param name="index">The index in <c>array</c> at which copying begins.</param>
+        <param name="index">The index in <paramref name="array" /> at which copying begins.</param>
         <summary>Copies the elements of the collection to a compatible one-dimensional array, starting at the specified index of the target array.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

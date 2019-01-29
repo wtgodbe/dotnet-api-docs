@@ -25,7 +25,7 @@
   </Base>
   <Interfaces></Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-2.1">
+    <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2">
       <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="netframework-1.1">
@@ -47,7 +47,7 @@
       <AttributeName>System.ComponentModel.Editor("System.Drawing.Design.ColorEditor, System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -2414,7 +2414,7 @@
   
 -   Iterates through the <xref:System.Drawing.KnownColor> enumeration elements to find all known colors that have the same lightness as `redShade`. The iterations are terminated when 15 matches are found or the value of the loop counter is greater than the last <xref:System.Drawing.KnownColor> element.  
   
--   During each iteration, saves the <xref:System.Drawing.KnownColor> element—if it matches the criteria—in an array.  
+-   During each iteration, saves the <xref:System.Drawing.KnownColor> element - if it matches the criteria - in an array.  
   
 -   Uses a brush to paint rectangles.  
   
@@ -2657,7 +2657,7 @@
   
 -   Iterates through the <xref:System.Drawing.KnownColor> enumeration elements to find all known colors that have the same lightness as `redShade`. The iterations are terminated when 15 matches are found or the value of the loop counter is greater than the last <xref:System.Drawing.KnownColor> element.  
   
--   During each iteration, saves the <xref:System.Drawing.KnownColor> element—if it matches the criteria—in an array.  
+-   During each iteration, saves the <xref:System.Drawing.KnownColor> element - if it matches the criteria - in an array.  
   
 -   Uses a brush to paint rectangles.  
   
@@ -2744,7 +2744,7 @@
   
 -   Iterates through the <xref:System.Drawing.KnownColor> enumeration elements to find all known colors that have the same hue as `redShade`. The iterations are terminated when 15 matches are found or the value of the loop counter is greater than the last <xref:System.Drawing.KnownColor> element.  
   
--   During each iteration, saves the <xref:System.Drawing.KnownColor> element—if it matches the criteria—in an array.  
+-   During each iteration, saves the <xref:System.Drawing.KnownColor> element - if it matches the criteria - in an array.  
   
 -   Uses a brush to paint rectangles.  
   
@@ -2798,7 +2798,7 @@
   
 -   Iterates through the <xref:System.Drawing.KnownColor> enumeration elements to find all known colors that have the same saturation as `redShade`. The iterations are terminated when 15 matches are found or the value of the loop counter is greater than the last <xref:System.Drawing.KnownColor> element.  
   
--   During each iteration, saves the <xref:System.Drawing.KnownColor> element—if it matches the criteria—in an array.  
+-   During each iteration, saves the <xref:System.Drawing.KnownColor> element - if it matches the criteria - in an array.  
   
 -   Uses a brush to paint rectangles.  
   
@@ -6635,7 +6635,7 @@
   
 -   Iterates through the <xref:System.Drawing.KnownColor> enumeration elements to find all known colors that have a non-zero green component and a zero-value red component, and that are not system colors.  
   
--   During each iteration, saves the <xref:System.Drawing.KnownColor> element—if it matches the criteria—in an array.  
+-   During each iteration, saves the <xref:System.Drawing.KnownColor> element - if it matches the criteria - in an array.  
   
 -   Uses a brush to paint rectangles.  
   
@@ -6773,7 +6773,7 @@
   
 -   Iterates through the <xref:System.Drawing.KnownColor> enumeration elements to find all known colors that have a non-zero green component and a zero-value red component and that are not system colors.  
   
--   During each iteration, saves the <xref:System.Drawing.KnownColor> element—if it matches the criteria—in an array.  
+-   During each iteration, saves the <xref:System.Drawing.KnownColor> element - if it matches the criteria - in an array.  
   
 -   Uses a brush to paint rectangles. Each of the rectangles is painted a <xref:System.Drawing.KnownColor> that matches the criteria stated in the first step. The name of the <xref:System.Drawing.KnownColor> and its component values are also displayed.  
   

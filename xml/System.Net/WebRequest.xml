@@ -35,8 +35,8 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -46,7 +46,7 @@
   
 ## Remarks  
 
->  [!IMPORTANT]
+> [!IMPORTANT]
 >  We don't recommend that you use `WebRequest` or its derived classes for new development. Instead, use the <xref:System.Net.Http.HttpClient?displayProperty=nameWithType> class.
 
  <xref:System.Net.WebRequest> is the `abstract` base class for .NET's request/response model for accessing data from the Internet. An application that uses the request/response model can request data from the Internet in a protocol-agnostic manner, in which the application works with instances of the <xref:System.Net.WebRequest> class while protocol-specific descendant classes carry out the details of the request.  
@@ -742,7 +742,7 @@
  The <xref:System.Net.WebRequest.Create%2A> method uses the `requestUriString` parameter to create a <xref:System.Uri> instance that it passes to the new <xref:System.Net.WebRequest>.  
   
 > [!NOTE]
->  This member outputs trace information when you enable network tracing in your application. For more information, see [&#91;\<topic://conUsingNetworkTracing>&#93;](https://msdn.microsoft.com/library/e993b7c3-087f-45d8-9c02-9dded936d804).  
+>  This member outputs trace information when you enable network tracing in your application. For more information, see [Network Tracing in the .NET Framework](~/docs/framework/network-programming/network-tracing.md).
   
    
   
@@ -834,7 +834,7 @@
  .NET includes support for the `http://`, `https://`, `ftp://`, and `file://` URI schemes. Custom <xref:System.Net.WebRequest> descendants to handle other requests are registered with the <xref:System.Net.WebRequest.RegisterPrefix%2A> method.  
   
 > [!NOTE]
->  This member outputs trace information when you enable network tracing in your application. For more information, see [&#91;\<topic://conUsingNetworkTracing>&#93;](https://msdn.microsoft.com/library/e993b7c3-087f-45d8-9c02-9dded936d804).  
+>  This member outputs trace information when you enable network tracing in your application. For more information, see [Network Tracing in the .NET Framework](~/docs/framework/network-programming/network-tracing.md).  
   
    
   

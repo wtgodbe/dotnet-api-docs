@@ -37,8 +37,8 @@
     <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
       <AttributeName>System.Runtime.CompilerServices.FriendAccessAllowed</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -48,7 +48,7 @@
   
 ## Remarks
 
->  [!IMPORTANT]
+> [!IMPORTANT]
 >  We don't recommend that you use `HttpWebRequest` for new development. Instead, use the <xref:System.Net.Http.HttpClient?displayProperty=nameWithType> class.
 
  The <xref:System.Net.HttpWebRequest> class provides support for the properties and methods defined in <xref:System.Net.WebRequest> and for additional properties and methods that enable the user to interact directly with servers using HTTP.  
@@ -226,7 +226,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName>System.Obsolete("Serialization is obsoleted for this type", false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
         </Attribute>
       </Attributes>
@@ -1445,7 +1445,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
 >  Your application cannot mix synchronous and asynchronous methods for a particular request. If you call the <xref:System.Net.HttpWebRequest.BeginGetRequestStream%2A> method, you must use the <xref:System.Net.HttpWebRequest.BeginGetResponse%2A> method to retrieve the response.  
   
 > [!NOTE]
->  This member outputs trace information when you enable network tracing in your application. For more information, see [&#91;\<topic://conUsingNetworkTracing>&#93;](https://msdn.microsoft.com/library/e993b7c3-087f-45d8-9c02-9dded936d804).  
+>  This member outputs trace information when you enable network tracing in your application. For more information, see [Network Tracing in the .NET Framework](~/docs/framework/network-programming/network-tracing.md).  
   
    
   
@@ -2073,7 +2073,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Get or set the <see langword="Date" /> HTTP header value to use in an HTTP request.</summary>
+        <summary>Gets or sets the <see langword="Date" /> HTTP header value to use in an HTTP request.</summary>
         <value>The Date header value in the HTTP request.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -2142,7 +2142,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
   
  There is no <xref:System.Net.WebRequest.CachePolicy%2A?displayProperty=nameWithType> property specified for this request.  
   
- \- or -  
+-or-
   
  The machine and application configuration files do not specify a cache policy that is applicable to the Uniform Resource Identifier (URI) used to create this request.  
   
@@ -2340,11 +2340,11 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
       </Docs>
     </Member>
     <Member MemberName="EndGetRequestStream">
-      <MemberSignature Language="C#" Value="public System.IO.Stream EndGetRequestStream (IAsyncResult asyncResult, out System.Net.TransportContext context);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IO.Stream EndGetRequestStream(class System.IAsyncResult asyncResult, [out] class System.Net.TransportContext&amp; context) cil managed" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public System.IO.Stream EndGetRequestStream (IAsyncResult asyncResult, out System.Net.TransportContext context);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netcore-2.2" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IO.Stream EndGetRequestStream(class System.IAsyncResult asyncResult, [out] class System.Net.TransportContext&amp; context) cil managed" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netcore-2.2" />
       <MemberSignature Language="DocId" Value="M:System.Net.HttpWebRequest.EndGetRequestStream(System.IAsyncResult,System.Net.TransportContext@)" />
-      <MemberSignature Language="VB.NET" Value="Public Function EndGetRequestStream (asyncResult As IAsyncResult, ByRef context As TransportContext) As Stream" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::IO::Stream ^ EndGetRequestStream(IAsyncResult ^ asyncResult, [Runtime::InteropServices::Out] System::Net::TransportContext ^ % context);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGetRequestStream (asyncResult As IAsyncResult, ByRef context As TransportContext) As Stream" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netcore-2.2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::IO::Stream ^ EndGetRequestStream(IAsyncResult ^ asyncResult, [Runtime::InteropServices::Out] System::Net::TransportContext ^ % context);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netcore-2.2" />
       <MemberSignature Language="C#" Value="public System.IO.Stream EndGetRequestStream (IAsyncResult asyncResult, out System.Net.TransportContext transportContext);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IO.Stream EndGetRequestStream(class System.IAsyncResult asyncResult, [out] class System.Net.TransportContext&amp; transportContext) cil managed" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="VB.NET" Value="Public Function EndGetRequestStream (asyncResult As IAsyncResult, ByRef transportContext As TransportContext) As Stream" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
@@ -2374,7 +2374,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
       </ReturnValue>
       <Parameters>
         <Parameter Name="asyncResult" Type="System.IAsyncResult" Index="0" />
-        <Parameter Name="context" Type="System.Net.TransportContext" RefType="out" Index="1" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8" />
+        <Parameter Name="context" Type="System.Net.TransportContext" RefType="out" Index="1" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netstandard-2.0;netcore-2.1;netframework-4.7.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netcore-2.2" />
         <Parameter Name="transportContext" Type="System.Net.TransportContext" RefType="out" Index="1" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
@@ -2570,9 +2570,16 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Returns a hash value for a <see cref="T:System.Net.WebRequest" /> instance.</summary>
+        <returns>An integer hash value.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+## Remarks  
+The GetHashCode method returns a hash code of the web request. This value can be used as a key in hash tables.
+
+]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="GetObjectData">
@@ -2604,7 +2611,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
         </Attribute>
       </Attributes>
@@ -3080,7 +3087,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Get or set the Host header value to use in an HTTP request independent from the request URI.</summary>
+        <summary>Gets or sets the Host header value to use in an HTTP request independent from the request URI.</summary>
         <value>The Host header value in the HTTP request.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -4176,7 +4183,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
         </Attribute>
       </Attributes>
@@ -4419,7 +4426,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
       <Docs>
         <summary>Gets or sets a <see cref="T:System.Boolean" /> value that controls whether default credentials are sent with requests.</summary>
         <value>
-          <see langword="true" /> if the default credentials are used; otherwise <see langword="false" />. The default value is <see langword="false" />.</value>
+          <see langword="true" /> if the default credentials are used; otherwise, <see langword="false" />. The default value is <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

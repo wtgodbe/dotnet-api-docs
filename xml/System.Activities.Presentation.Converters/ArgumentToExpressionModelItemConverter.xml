@@ -76,12 +76,12 @@
         <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
       </Parameters>
       <Docs>
-        <param name="values">To be added.</param>
+        <param name="values">An array that contains the argument to convert. Only the array item at index 1 is used.</param>
         <param name="targetType">Not used in this implementation.</param>
         <param name="parameter">Not used in this implementation.</param>
         <param name="culture">Not used in this implementation.</param>
         <summary>Converts the specified argument to an expression model item.</summary>
-        <returns>Returns a <see cref="T:System.Object" /> that contains the expression model item.</returns>
+        <returns>An object that contains the expression model item.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -115,7 +115,7 @@
         <param name="parameter">Not used in this implementation.</param>
         <param name="culture">Not used in this implementation.</param>
         <summary>Converts the specified expression model item to an argument.</summary>
-        <returns>Returns a <see cref="T:System.Object" /> that contains the argument.</returns>
+        <returns>An object that contains the argument.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

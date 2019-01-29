@@ -161,7 +161,7 @@
         <param name="conditionProperty">The property of the condition.</param>
         <param name="conditionValue">The value of the condition.</param>
         <param name="sourceName">
-          <c>x:Name</c> of the object with the <c>conditionProperty</c>.</param>
+          <c>x:Name</c> of the object with the <paramref name="conditionProperty" />.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Condition" /> class with the specified property, value, and the name of the source object.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -411,6 +411,9 @@
       <MemberSignature Language="VB.NET" Value="Sub BeginInit () Implements ISupportInitialize.BeginInit" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.ComponentModel.ISupportInitialize.BeginInit() = System::ComponentModel::ISupportInitialize::BeginInit;" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.ISupportInitialize.BeginInit</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -438,6 +441,9 @@
       <MemberSignature Language="VB.NET" Value="Sub EndInit () Implements ISupportInitialize.EndInit" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.ComponentModel.ISupportInitialize.EndInit() = System::ComponentModel::ISupportInitialize::EndInit;" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.ISupportInitialize.EndInit</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

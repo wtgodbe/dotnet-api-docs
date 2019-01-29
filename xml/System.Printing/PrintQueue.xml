@@ -745,7 +745,7 @@
         <exception cref="T:System.Printing.PrintSystemException">Some of the properties could not be committed.</exception>
         <exception cref="T:System.Printing.PrintCommitAttributesException">Some of the properties could not be committed.  
   
- \- or -  
+-or-
   
  The <see cref="T:System.Printing.PrintQueue" /> object was not created with sufficient rights.</exception>
         <altmember cref="M:System.Printing.PrintQueue.Refresh" />
@@ -1451,7 +1451,7 @@
       <Parameters />
       <Docs>
         <summary>Creates a collection that contains a <see cref="T:System.Printing.PrintSystemJobInfo" /> object for each job in the queue.</summary>
-        <returns>Returns a <see cref="T:System.Printing.PrintJobInfoCollection" /> of <see cref="T:System.Printing.PrintSystemJobInfo" /> objects. There is one for each job in the queue.</returns>
+        <returns>A collection of <see cref="T:System.Printing.PrintSystemJobInfo" /> objects. There is one for each job in the queue.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2768,7 +2768,7 @@
   
  The merged ticket is then checked against the actual capabilities of the printer. If any settings in the ticket are incompatible with the printer's capabilities, then the printer driver changes those settings by using whatever logic it wants. Typically, it substitutes the user's or printer's default value for the setting. It the driver's source of substitute values is not the same ticket as `basePrintTicket`, then the merged ticket might have some settings that are different from both of the input tickets. If the printer driver has to change any settings then this fact is reported in the <xref:System.Printing.ValidationResult.ConflictStatus%2A> property of the <xref:System.Printing.ValidationResult>.  
   
- To merge and validate based on a print queue’s default settings, you should set `basePrintTicket` to the <xref:System.Printing.PrintQueue.DefaultPrintTicket%2A> or the <xref:System.Printing.PrintQueue.UserPrintTicket%2A>.  
+ To merge and validate based on a print queue's default settings, you should set `basePrintTicket` to the <xref:System.Printing.PrintQueue.DefaultPrintTicket%2A> or the <xref:System.Printing.PrintQueue.UserPrintTicket%2A>.  
   
  The `deltaPrintTicket` parameter can be `null`, in which case the `basePrintTicket` is validated, checked for viability, and returned, possibly with changes.  
   
@@ -2818,7 +2818,7 @@
       <Docs>
         <param name="basePrintTicket">The first print ticket.</param>
         <param name="deltaPrintTicket">The second print ticket. This can be <see langword="null" />.</param>
-        <param name="scope">A value indicating whether the scope of <c>deltaPrintTicket</c>, and the scope of the print ticket returned in the <see cref="T:System.Printing.ValidationResult" />, is a page, a document, or the whole job.</param>
+        <param name="scope">A value indicating whether the scope of <paramref name="deltaPrintTicket" />, and the scope of the print ticket returned in the <see cref="T:System.Printing.ValidationResult" />, is a page, a document, or the whole job.</param>
         <summary>Merges two <see cref="T:System.Printing.PrintTicket" />s and guarantees that the resulting <see cref="T:System.Printing.PrintTicket" /> is valid, does not ask for any printing functionality that the printer does not support, and is limited to the specified scope.</summary>
         <returns>A <see cref="T:System.Printing.ValidationResult" /> that includes the merged <see cref="T:System.Printing.PrintTicket" /> and an indication of whether any of its settings had to be changed to guarantee viability.</returns>
         <remarks>
@@ -2831,7 +2831,7 @@
   
  The merged ticket is then checked against the actual capabilities of the printer. If any settings in the ticket are incompatible with the printer's capabilities, then the printer driver changes those settings by using whatever logic it wants. Typically, it substitutes the user's or printer's default value for the setting. It the driver's source of substitute values is not the same ticket as `basePrintTicket`, then the merged ticket might have some settings that are different from both of the input tickets. If the printer driver has to change any settings then this fact is reported in the <xref:System.Printing.ValidationResult.ConflictStatus%2A> property of the <xref:System.Printing.ValidationResult>.  
   
- To merge and validate based on a print queue’s default settings, you should set `basePrintTicket` to the <xref:System.Printing.PrintQueue.DefaultPrintTicket%2A> or the <xref:System.Printing.PrintQueue.UserPrintTicket%2A>.  
+ To merge and validate based on a print queue's default settings, you should set `basePrintTicket` to the <xref:System.Printing.PrintQueue.DefaultPrintTicket%2A> or the <xref:System.Printing.PrintQueue.UserPrintTicket%2A>.  
   
  The `deltaPrintTicket` parameter can be `null`, in which case the `basePrintTicket` is validated, checked for viability, and returned, possibly with changes.  
   

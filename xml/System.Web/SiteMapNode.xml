@@ -106,7 +106,7 @@
         <exception cref="T:System.ArgumentNullException">
           <see cref="T:System.Web.SiteMapProvider" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="key" /> is <see langword="null" />.</exception>
       </Docs>
@@ -158,7 +158,7 @@
         <exception cref="T:System.ArgumentNullException">
           <see cref="T:System.Web.SiteMapProvider" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="key" /> is <see langword="null" />.</exception>
       </Docs>
@@ -217,7 +217,7 @@
         <exception cref="T:System.ArgumentNullException">
           <see cref="T:System.Web.SiteMapProvider" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="key" /> is <see langword="null" />.</exception>
       </Docs>
@@ -277,7 +277,7 @@
         <exception cref="T:System.ArgumentNullException">
           <see cref="T:System.Web.SiteMapProvider" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="key" /> is <see langword="null" />.</exception>
         <altmember cref="T:System.Web.SiteMapProvider" />
@@ -339,7 +339,7 @@
         <exception cref="T:System.ArgumentNullException">
           <see cref="T:System.Web.SiteMapProvider" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="key" /> is <see langword="null" />.</exception>
         <altmember cref="P:System.Web.SiteMapProvider.SecurityTrimmingEnabled" />
@@ -678,7 +678,7 @@
         <param name="attributeName">The <see cref="T:System.Web.SiteMapNode" /> attribute to localize.</param>
         <param name="defaultValue">The default value to return if a matching resource is not found.</param>
         <param name="throwIfNotFound">
-          <see langword="true" /> to throw an <see cref="T:System.InvalidOperationException" />, if an explicit resource is defined for <c>attributeName</c>, <c>defaultValue</c> is <see langword="null" />, and a localized value is not found; otherwise, <see langword="false" />.</param>
+          <see langword="true" /> to throw an <see cref="T:System.InvalidOperationException" />, if an explicit resource is defined for <paramref name="attributeName" />, <paramref name="defaultValue" /> is <see langword="null" />, and a localized value is not found; otherwise, <see langword="false" />.</param>
         <summary>Retrieves a localized string based on a <see cref="T:System.Web.SiteMapNode" /> attribute to localize, a default string to return if no resource is found, and a Boolean value indicating whether to throw an exception if no resource is found.</summary>
         <returns>A string representing the localized attribute.</returns>
         <remarks>

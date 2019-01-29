@@ -25,8 +25,8 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -146,7 +146,7 @@
         <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
       </Parameters>
       <Docs>
-        <param name="info">The serialization information necessary to reconstruct the <see cref="T:System.ServiceModel.FaultException" /> object from the <c>context</c>.</param>
+        <param name="info">The serialization information necessary to reconstruct the <see cref="T:System.ServiceModel.FaultException" /> object from the <paramref name="context" />.</param>
         <param name="context">The stream from which to reconstruct the <see cref="T:System.ServiceModel.FaultException" /> object.</param>
         <summary>Initializes a new instance of the <see cref="T:System.ServiceModel.FaultException`1" /> class using the specified serialization information and context when deserializing a stream into a <see cref="T:System.ServiceModel.FaultException" /> object.</summary>
         <remarks>To be added.</remarks>

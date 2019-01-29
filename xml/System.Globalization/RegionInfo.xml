@@ -34,8 +34,8 @@
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -1110,7 +1110,7 @@
 > [!NOTE]
 >  The <xref:System.Globalization.RegionInfo.NativeName%2A> property retrieves a full culture name if the `RegionInfo` object is constructed using a full culture name.  
   
- We recommend that you use the culture name—for example, "en-US" for English (United States)—to access the <xref:System.Globalization.RegionInfo.NativeName%2A> property. The string used for this property depends on the language associated with the country/region. For example, the culture names en-US for English (United States) and es-US for Spanish (United States) can retrieve different values on Windows Vista. Therefore, creating the `RegionInfo` object with only a country/region name of US is not specific enough to distinguish the appropriate string.  
+ We recommend that you use the culture name - for example, "en-US" for English (United States) - to access the <xref:System.Globalization.RegionInfo.NativeName%2A> property. The string used for this property depends on the language associated with the country/region. For example, the culture names en-US for English (United States) and es-US for Spanish (United States) can retrieve different values on Windows Vista. Therefore, creating the `RegionInfo` object with only a country/region name of US is not specific enough to distinguish the appropriate string.  
   
    
   

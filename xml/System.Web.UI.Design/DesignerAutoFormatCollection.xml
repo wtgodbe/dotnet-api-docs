@@ -70,7 +70,7 @@
     <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
     <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
     <altmember cref="T:System.Web.UI.Design.DesignerAutoFormatStyle" />
-    <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+    <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -99,7 +99,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Add">
@@ -144,7 +144,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -180,7 +180,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Contains">
@@ -219,7 +219,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -255,7 +255,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -292,7 +292,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Insert">
@@ -316,7 +316,7 @@
         <Parameter Name="format" Type="System.Web.UI.Design.DesignerAutoFormat" />
       </Parameters>
       <Docs>
-        <param name="index">The zero-based index within the collection at which to insert <c>format</c>.</param>
+        <param name="index">The zero-based index within the collection at which to insert <paramref name="format" />.</param>
         <param name="format">The <see cref="T:System.Web.UI.Design.DesignerAutoFormat" /> to insert into the collection.</param>
         <summary>Inserts a <see cref="T:System.Web.UI.Design.DesignerAutoFormat" /> object into the collection at the specified index.</summary>
         <remarks>
@@ -333,13 +333,13 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero.  
   
- \- or -  
+-or-
   
  <paramref name="index" /> is greater than the <see cref="P:System.Web.UI.Design.DesignerAutoFormatCollection.Count" /> property.</exception>
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -378,13 +378,13 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero.  
   
- \- or -  
+-or-
   
  <paramref name="index" /> is greater than the <see cref="P:System.Web.UI.Design.DesignerAutoFormatCollection.Count" /> property.</exception>
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="PreviewSize">
@@ -417,7 +417,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -462,7 +462,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="RemoveAt">
@@ -504,10 +504,10 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero.  
   
- \- or -  
+-or-
   
  <paramref name="index" /> is greater than the <see cref="P:System.Web.UI.Design.DesignerAutoFormatCollection.Count" /> property.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="SyncRoot">
@@ -546,7 +546,7 @@
         <altmember cref="T:System.Web.UI.Design.DesignerAutoFormat" />
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.ICollection.CopyTo">
@@ -828,7 +828,7 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="index">The index at which to insert <c>value</c>.</param>
+        <param name="index">The index at which to insert <paramref name="value" />.</param>
         <param name="value">A <see cref="T:System.Web.UI.Design.DesignerAutoFormat" /> to insert.</param>
         <summary>Inserts an item into the collection at the specified index when the <see cref="T:System.Web.UI.Design.DesignerAutoFormatCollection" /> object is cast to an <see cref="T:System.Collections.IList" /> interface.</summary>
         <remarks>
@@ -910,7 +910,7 @@
         <altmember cref="T:System.Web.UI.Design.ControlDesigner" />
         <altmember cref="P:System.Web.UI.Design.ControlDesigner.AutoFormats" />
         <altmember cref="T:System.Collections.IList" />
-        <related type="Article" href="https://msdn.microsoft.com/library/1d5a99d7-0a72-403e-812e-2c1ab595c810">ASP.NET Control Designers Overview</related>
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/wxh45wzs(v=vs.100)">ASP.NET Control Designers Overview</related>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Item">

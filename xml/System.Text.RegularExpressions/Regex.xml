@@ -1,4 +1,4 @@
-<Type Name="Regex" FullName="System.Text.RegularExpressions.Regex">
+﻿<Type Name="Regex" FullName="System.Text.RegularExpressions.Regex">
   <TypeSignature Language="C#" Value="public class Regex : System.Runtime.Serialization.ISerializable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit Regex extends System.Object implements class System.Runtime.Serialization.ISerializable" />
   <TypeSignature Language="DocId" Value="T:System.Text.RegularExpressions.Regex" />
@@ -34,8 +34,8 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -646,7 +646,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;netframework-4.8;netcore-2.2">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netstandard-2.0">
@@ -729,7 +729,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;netframework-4.8;netcore-2.2">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netstandard-2.0">
@@ -1159,7 +1159,7 @@ On .NET Core, calls to the `Regex.CompileToAssembly` method throw a <xref:System
       </Parameters>
       <Docs>
         <param name="str">The input string that contains the text to convert.</param>
-        <summary>Escapes a minimal set of characters (\\, *, +, ?, |, {, [, (,), ^, $,., #, and white space) by replacing them with their escape codes. This instructs the regular expression engine to interpret these characters literally rather than as metacharacters.</summary>
+        <summary>Escapes a minimal set of characters (\\, *, +, ?, |, {, [, (,), ^, $, ., #, and white space) by replacing them with their escape codes. This instructs the regular expression engine to interpret these characters literally rather than as metacharacters.</summary>
         <returns>A string of characters with metacharacters converted to their escaped form.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1256,7 +1256,9 @@ On .NET Core, calls to the `Regex.CompileToAssembly` method throw a <xref:System
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>This member overrides <see cref="M:System.Object.Finalize" />, and more complete documentation might be available in that topic.
+
+Allows an <see cref="T:System.Object" /> to attempt to free resources and perform other cleanup operations before the <see cref="T:System.Object" /> is reclaimed by garbage collection.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2459,7 +2461,7 @@ On .NET Core, calls to the `Regex.CompileToAssembly` method throw a <xref:System
   
  The regular expression pattern for which the <xref:System.Text.RegularExpressions.Regex.Match%28System.String%2CSystem.Int32%2CSystem.Int32%29> method searches is defined by the call to one of the <xref:System.Text.RegularExpressions.Regex> class constructors. For more information about the elements that can form a regular expression pattern, see [Regular Expression Language - Quick Reference](~/docs/standard/base-types/regular-expression-language-quick-reference.md).  
   
- The <xref:System.Text.RegularExpressions.Regex.Match%28System.String%2CSystem.Int32%2CSystem.Int32%29> method searches the portion of `input` defined by the `beginning` and `length` parameters for the regular expression pattern. `beginning` always defines the index of the leftmost character to include in the search, and `length` defines the maximum number of characters to search. Together, they define the range of the search. If the search proceeds from left to right (the default), the regular expression engine searches from the character at index `beginning` to the character at index `beginning` + `length` – 1. If the regular expression engine was instantiated by using the <xref:System.Text.RegularExpressions.RegexOptions.RightToLeft?displayProperty=nameWithType> option so that the search proceeds from right to left, the regular expression engine searches from the character at index `beginning` + `length` – 1 to the character at index `beginning`. This method returns the first match that it finds within this range. You can retrieve subsequent matches by repeatedly calling the returned <xref:System.Text.RegularExpressions.Match> object's <xref:System.Text.RegularExpressions.Match.NextMatch%2A?displayProperty=nameWithType> method.  
+ The <xref:System.Text.RegularExpressions.Regex.Match%28System.String%2CSystem.Int32%2CSystem.Int32%29> method searches the portion of `input` defined by the `beginning` and `length` parameters for the regular expression pattern. `beginning` always defines the index of the leftmost character to include in the search, and `length` defines the maximum number of characters to search. Together, they define the range of the search. If the search proceeds from left to right (the default), the regular expression engine searches from the character at index `beginning` to the character at index `beginning` + `length` - 1. If the regular expression engine was instantiated by using the <xref:System.Text.RegularExpressions.RegexOptions.RightToLeft?displayProperty=nameWithType> option so that the search proceeds from right to left, the regular expression engine searches from the character at index `beginning` + `length` - 1 to the character at index `beginning`. This method returns the first match that it finds within this range. You can retrieve subsequent matches by repeatedly calling the returned <xref:System.Text.RegularExpressions.Match> object's <xref:System.Text.RegularExpressions.Match.NextMatch%2A?displayProperty=nameWithType> method.  
   
  You can determine whether the regular expression pattern has been found in the input string by checking the value of the returned <xref:System.Text.RegularExpressions.Match> object's <xref:System.Text.RegularExpressions.Group.Success%2A> property. If a match is found, the returned <xref:System.Text.RegularExpressions.Match> object's <xref:System.Text.RegularExpressions.Capture.Value%2A> property contains the substring from `input` that matches the regular expression pattern. If no match is found, its value is <xref:System.String.Empty?displayProperty=nameWithType>.  
   
@@ -2478,7 +2480,7 @@ On .NET Core, calls to the `Regex.CompileToAssembly` method throw a <xref:System
   
  -or-  
   
- <paramref name="beginning" /><see langword="+" /><paramref name="length" /><see langword="–1" /> identifies a position that is outside the range of <paramref name="input" />.</exception>
+ <paramref name="beginning" /><see langword="+" /><paramref name="length" /><see langword="-1" /> identifies a position that is outside the range of <paramref name="input" />.</exception>
         <exception cref="T:System.Text.RegularExpressions.RegexMatchTimeoutException">A time-out occurred. For more information about time-outs, see the Remarks section.</exception>
         <altmember cref="M:System.Text.RegularExpressions.Match.NextMatch" />
         <related type="Article" href="~/docs/standard/base-types/regular-expression-language-quick-reference.md">Regular Expression Language - Quick Reference</related>
@@ -2810,7 +2812,7 @@ On .NET Core, calls to the `Regex.CompileToAssembly` method throw a <xref:System
   
  The <xref:System.Text.RegularExpressions.Regex.Matches%2A> method uses lazy evaluation to populate the returned <xref:System.Text.RegularExpressions.MatchCollection> object. Accessing members of this collection such as <xref:System.Text.RegularExpressions.MatchCollection.Count%2A?displayProperty=nameWithType> and <xref:System.Text.RegularExpressions.MatchCollection.CopyTo%2A?displayProperty=nameWithType> causes the collection to be populated immediately. To take advantage of lazy evaluation, you should iterate the collection by using a construct such as `foreach` in C# and `For Each`…`Next` in Visual Basic.  
   
- Because of its lazy evaluation, calling the <xref:System.Text.RegularExpressions.Regex.Matches%28System.String%2CSystem.Int32%29> method does not throw a <xref:System.Text.RegularExpressions.RegexMatchTimeoutException> exception. However, the exception is thrown when an operation is performed on the <xref:System.Text.RegularExpressions.MatchCollection> object returned by this method, if the <xref:System.Text.RegularExpressions.Regex.MatchTimeout%2A> property is not <xref:System.Text.RegularExpressions.Regex.InfiniteMatchTimeout?displayProperty=nameWithType> and a matching operation exceeds the time-out interval..  
+ Because of its lazy evaluation, calling the <xref:System.Text.RegularExpressions.Regex.Matches%28System.String%2CSystem.Int32%29> method does not throw a <xref:System.Text.RegularExpressions.RegexMatchTimeoutException> exception. However, the exception is thrown when an operation is performed on the <xref:System.Text.RegularExpressions.MatchCollection> object returned by this method, if the <xref:System.Text.RegularExpressions.Regex.MatchTimeout%2A> property is not <xref:System.Text.RegularExpressions.Regex.InfiniteMatchTimeout?displayProperty=nameWithType> and a matching operation exceeds the time-out interval. 
   
    
   
@@ -5137,13 +5139,12 @@ On .NET Core, calls to the `Regex.CompileToAssembly` method throw a <xref:System
         <summary>Converts any escaped characters in the input string.</summary>
         <returns>A string of characters with any escaped characters converted to their unescaped form.</returns>
         <remarks>
-          <format type="text/markdown">
-    <![CDATA[  
+          <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
  The <xref:System.Text.RegularExpressions.Regex.Unescape%2A> method performs one of the following two transformations:  
   
--   It reverses the transformation performed by the <xref:System.Text.RegularExpressions.Regex.Escape%2A> method by removing the escape character ("\\") from each character escaped by the method. These include the \\, *, +, ?, &#124;, {, [, (,), ^, $,., #, and white space characters. In addition, the <xref:System.Text.RegularExpressions.Regex.Unescape%2A> method unescapes the closing bracket (]) and closing brace (}) characters.  
+-   It reverses the transformation performed by the <xref:System.Text.RegularExpressions.Regex.Escape%2A> method by removing the escape character ("\\") from each character escaped by the method. These include the \\, *, +, ?, &#124;, {, [, (,), ^, $, ., #, and white space characters. In addition, the <xref:System.Text.RegularExpressions.Regex.Unescape%2A> method unescapes the closing bracket (]) and closing brace (}) characters.  
   
 > [!NOTE]
 >  <xref:System.Text.RegularExpressions.Regex.Unescape%2A> cannot reverse an escaped string perfectly because it cannot deduce precisely which characters were escaped,  

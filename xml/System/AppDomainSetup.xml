@@ -27,8 +27,8 @@
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -746,6 +746,7 @@
       <Docs>
         <summary>Gets or sets the base directory where the directory for dynamically generated files is located.</summary>
         <value>The directory where the <see cref="P:System.AppDomain.DynamicDirectory" /> is located.  
+
  <block subset="none" type="note"><para>  
  The return value of this property is different from the value assigned.
 </para></block></value>
@@ -1002,7 +1003,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Set this property to any non-null string value, including <xref:System.String.Empty?displayProperty=nameWithType> (""), to exclude the application directory path — that is, <xref:System.AppDomainSetup.ApplicationBase%2A> — from the search path for the application, and to search for assemblies only in <xref:System.AppDomainSetup.PrivateBinPath%2A>.  
+ Set this property to any non-null string value, including <xref:System.String.Empty?displayProperty=nameWithType> (""), to exclude the application directory path - that is, <xref:System.AppDomainSetup.ApplicationBase%2A> - from the search path for the application, and to search for assemblies only in <xref:System.AppDomainSetup.PrivateBinPath%2A>.  
   
  ]]></format>
         </remarks>
@@ -1158,7 +1159,7 @@
       <Docs>
         <param name="functionName">The name of the string comparison function to override.</param>
         <param name="functionVersion">The function version. For [!INCLUDE[net_v45](~/includes/net-v45-md.md)], its value must be 1 or greater.</param>
-        <param name="functionPointer">A pointer to the function that overrides <c>functionName</c>.</param>
+        <param name="functionPointer">A pointer to the function that overrides <paramref name="functionName" />.</param>
         <summary>Provides the common language runtime with an alternate implementation of a string comparison function.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1228,7 +1229,7 @@
 ## Remarks  
  When shadow copying is enabled, the default is to shadow copy all assemblies found through probing; that is, in the directories specified by the <xref:System.AppDomainSetup.PrivateBinPath%2A> and <xref:System.AppDomainSetup.ApplicationBase%2A> properties. The <xref:System.AppDomainSetup.ShadowCopyDirectories%2A> property restricts the shadow copy to the assemblies in the directories specified by <xref:System.AppDomainSetup.ShadowCopyDirectories%2A>.  
   
- If you don’t assign a string to the <xref:System.AppDomainSetup.ShadowCopyDirectories%2A> property, or if you set this property to `null`, all assemblies in the directories specified by the <xref:System.AppDomainSetup.ApplicationBase%2A> and <xref:System.AppDomainSetup.PrivateBinPath%2A> properties are shadow copied.  
+ If you don't assign a string to the <xref:System.AppDomainSetup.ShadowCopyDirectories%2A> property, or if you set this property to `null`, all assemblies in the directories specified by the <xref:System.AppDomainSetup.ApplicationBase%2A> and <xref:System.AppDomainSetup.PrivateBinPath%2A> properties are shadow copied.  
   
 > [!IMPORTANT]
 >  Directory paths must not contain semicolons, because the semicolon is the delimiter character. There is no escape character for semicolons.  

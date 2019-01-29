@@ -115,7 +115,7 @@
   
  You can also supply a cancellation token by calling the <xref:System.Threading.Tasks.Task.Wait%28System.Threading.CancellationToken%29> and  <xref:System.Threading.Tasks.Task.Wait%28System.Int32%2CSystem.Threading.CancellationToken%29> methods. If the  token's <xref:System.Threading.CancellationToken.IsCancellationRequested%2A> property is `true` or becomes `true` while the <xref:System.Threading.Tasks.Task.Wait%2A> method is executing, the method throws an <xref:System.OperationCanceledException>.  
   
- In some cases, you may want to wait for the first of a series of executing tasks to complete, but don't care which task it is.  For this purpose, you can call one of the overloads of the <xref:System.Threading.Tasks.Task.WaitAll%2A?displayProperty=nameWithType> method.  The following example creates three tasks, each of which sleeps for an interval determine by a random number generator. The <xref:System.Threading.Tasks.Task.WaitAny%28System.Threading.Tasks.Task%5B%5D%29> method waits for the first task to complete. The example then displays information about the status of all three tasks.  
+ In some cases, you may want to wait for the first of a series of executing tasks to complete, but don't care which task it is.  For this purpose, you can call one of the overloads of the <xref:System.Threading.Tasks.Task.WaitAny%2A?displayProperty=nameWithType> method.  The following example creates three tasks, each of which sleeps for an interval determine by a random number generator. The <xref:System.Threading.Tasks.Task.WaitAny%28System.Threading.Tasks.Task%5B%5D%29> method waits for the first task to complete. The example then displays information about the status of all three tasks.  
   
  [!code-csharp[System.Threading.Tasks.Task#10](~/samples/snippets/csharp/VS_Snippets_CLR_System/system.threading.tasks.task/cs/WhenAny1.cs#10)]
  [!code-vb[System.Threading.Tasks.Task#10](~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.threading.tasks.task/vb/WaitAny1.vb#10)]  
@@ -461,7 +461,7 @@
       <Docs>
         <param name="action">The delegate that represents the code to execute in the task.</param>
         <param name="state">An object representing data to be used by the action.</param>
-        <param name="cancellationToken">The <see cref="P:System.Threading.Tasks.TaskFactory.CancellationToken" /> that that the new task will observe.</param>
+        <param name="cancellationToken">The <see cref="P:System.Threading.Tasks.TaskFactory.CancellationToken" /> that the new task will observe.</param>
         <summary>Initializes a new <see cref="T:System.Threading.Tasks.Task" /> with the specified action, state, and options.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -559,7 +559,7 @@
       <Docs>
         <param name="action">The delegate that represents the code to execute in the task.</param>
         <param name="state">An object representing data to be used by the action.</param>
-        <param name="cancellationToken">The <see cref="P:System.Threading.Tasks.TaskFactory.CancellationToken" /> that that the new task will observe..</param>
+        <param name="cancellationToken">The <see cref="P:System.Threading.Tasks.TaskFactory.CancellationToken" /> that the new task will observe.</param>
         <param name="creationOptions">The <see cref="T:System.Threading.Tasks.TaskCreationOptions" /> used to customize the task's behavior.</param>
         <summary>Initializes a new <see cref="T:System.Threading.Tasks.Task" /> with the specified action, state, and options.</summary>
         <remarks>
@@ -917,7 +917,7 @@
         <Parameter Name="continuationOptions" Type="System.Threading.Tasks.TaskContinuationOptions" />
       </Parameters>
       <Docs>
-        <param name="continuationAction">An action to run according to the specified <c>continuationOptions</c>. When run, the delegate will be passed the completed task as an argument.</param>
+        <param name="continuationAction">An action to run according to the specified <paramref name="continuationOptions" />. When run, the delegate will be passed the completed task as an argument.</param>
         <param name="continuationOptions">Options for when the continuation is scheduled and how it behaves. This includes criteria, such as <see cref="F:System.Threading.Tasks.TaskContinuationOptions.OnlyOnCanceled" />, as well as execution options, such as <see cref="F:System.Threading.Tasks.TaskContinuationOptions.ExecuteSynchronously" />.</param>
         <summary>Creates a continuation that executes when the target task completes according to the specified <see cref="T:System.Threading.Tasks.TaskContinuationOptions" />.</summary>
         <returns>A new continuation <see cref="T:System.Threading.Tasks.Task" />.</returns>
@@ -1227,7 +1227,7 @@ End Class
         <Parameter Name="scheduler" Type="System.Threading.Tasks.TaskScheduler" />
       </Parameters>
       <Docs>
-        <param name="continuationAction">An action to run according to the specified <c>continuationOptions</c>. When run, the delegate will be passed the completed task as an argument.</param>
+        <param name="continuationAction">An action to run according to the specified <paramref name="continuationOptions" />. When run, the delegate will be passed the completed task as an argument.</param>
         <param name="cancellationToken">The <see cref="P:System.Threading.Tasks.TaskFactory.CancellationToken" /> that will be assigned to the new continuation task.</param>
         <param name="continuationOptions">Options for when the continuation is scheduled and how it behaves. This includes criteria, such as <see cref="F:System.Threading.Tasks.TaskContinuationOptions.OnlyOnCanceled" />, as well as execution options, such as <see cref="F:System.Threading.Tasks.TaskContinuationOptions.ExecuteSynchronously" />.</param>
         <param name="scheduler">The <see cref="T:System.Threading.Tasks.TaskScheduler" /> to associate with the continuation task and to use for its execution.</param>
@@ -1560,7 +1560,7 @@ End Sub
       </Parameters>
       <Docs>
         <typeparam name="TResult">The type of the result produced by the continuation.</typeparam>
-        <param name="continuationFunction">A function to run according to the condition specified in <c>continuationOptions</c>. When run, the delegate will be passed the completed task as an argument.</param>
+        <param name="continuationFunction">A function to run according to the condition specified in <paramref name="continuationOptions" />. When run, the delegate will be passed the completed task as an argument.</param>
         <param name="continuationOptions">Options for when the continuation is scheduled and how it behaves. This includes criteria, such as <see cref="F:System.Threading.Tasks.TaskContinuationOptions.OnlyOnCanceled" />, as well as execution options, such as <see cref="F:System.Threading.Tasks.TaskContinuationOptions.ExecuteSynchronously" />.</param>
         <summary>Creates a continuation that executes according to the specified continuation options and returns a value.</summary>
         <returns>A new continuation <see cref="T:System.Threading.Tasks.Task`1" />.</returns>
@@ -2844,7 +2844,7 @@ Task t Status: RanToCompletion, Result: 42
 ## Remarks  
  Task IDs are assigned on-demand and do not necessarily represent the order in which task instances are created. Note that although collisions are very rare, task identifiers are not guaranteed to be unique.  
   
- To get the task ID of the currently executing task from within code that that task is executing, use the <xref:System.Threading.Tasks.Task.CurrentId%2A> property.  
+ To get the task ID of the currently executing task from within code that task is executing, use the <xref:System.Threading.Tasks.Task.CurrentId%2A> property.  
   
  ]]></format>
         </remarks>
@@ -2943,17 +2943,16 @@ Task t Status: RanToCompletion, Result: 42
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets whether this <see cref="T:System.Threading.Tasks.Task" /> has completed.</summary>
+        <summary>Gets a value that indicates whether the task has completed.</summary>
         <value>
-          <see langword="true" /> if the task has completed; otherwise <see langword="false" />.</value>
+          <see langword="true" /> if the task has completed (that is, the task is in one of the three final states: <see cref="F:System.Threading.Tasks.TaskStatus.RanToCompletion" />, <see cref="F:System.Threading.Tasks.TaskStatus.Faulted" />, or <see cref="F:System.Threading.Tasks.TaskStatus.Canceled" />); otherwise, <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- <xref:System.Threading.Tasks.Task.IsCompleted%2A> will return `true` when the task is in one of the three final states: <xref:System.Threading.Tasks.TaskStatus.RanToCompletion>, <xref:System.Threading.Tasks.TaskStatus.Faulted>, or <xref:System.Threading.Tasks.TaskStatus.Canceled>.  
   
 > [!IMPORTANT]
->  Retrieving the value of the <xref:System.Threading.Tasks.Task.IsCompleted%2A?displayProperty=nameWithType> property does not block the calling thread until the task has completed.  
+> Retrieving the value of the <xref:System.Threading.Tasks.Task.IsCompleted%2A?displayProperty=nameWithType> property does not block the calling thread until the task has completed.  
   
  ]]></format>
         </remarks>
@@ -4009,7 +4008,7 @@ Task t Status: RanToCompletion, Result: 42
  -or-  
   
  An exception was thrown during the execution of the task. The <see cref="P:System.AggregateException.InnerExceptions" /> collection contains information about the exception or exceptions.</exception>
-        <related type="ExternalDocumentation" href="https://blogs.msdn.com/b/pfxteam/archive/2009/10/15/9907713.aspx">Task.Wait and “Inlining”</related>
+        <related type="ExternalDocumentation" href="https://blogs.msdn.com/b/pfxteam/archive/2009/10/15/9907713.aspx">Task.Wait and "Inlining"</related>
       </Docs>
     </Member>
     <Member MemberName="Wait">
@@ -5446,7 +5445,7 @@ Task t Status: RanToCompletion, Result: 42
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- You can use `await Task.Yield();` in an asynchronous method to force the method to complete asynchronously. If there is a current synchronization context (<xref:System.Threading.SynchronizationContext> object), this will post the remainder of the method’s execution back to that context. However, the context will decide how to prioritize this work relative to other work that may be pending. The synchronization context that is present on a UI thread in most UI environments will often prioritize work posted to the context higher than input and rendering work. For this reason, do not rely on `await Task.Yield();` to keep a UI responsive.  For more information, see the entry [Useful Abstractions Enabled with ContinueWith](https://blogs.msdn.com/b/pfxteam/archive/2008/07/23/8768673.aspx) in the Parallel Programming with .NET blog.  
+ You can use `await Task.Yield();` in an asynchronous method to force the method to complete asynchronously. If there is a current synchronization context (<xref:System.Threading.SynchronizationContext> object), this will post the remainder of the method's execution back to that context. However, the context will decide how to prioritize this work relative to other work that may be pending. The synchronization context that is present on a UI thread in most UI environments will often prioritize work posted to the context higher than input and rendering work. For this reason, do not rely on `await Task.Yield();` to keep a UI responsive.  For more information, see the entry [Useful Abstractions Enabled with ContinueWith](https://blogs.msdn.com/b/pfxteam/archive/2008/07/23/8768673.aspx) in the Parallel Programming with .NET blog.  
   
  ]]></format>
         </remarks>

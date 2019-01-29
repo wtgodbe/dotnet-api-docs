@@ -355,7 +355,7 @@
       </Parameters>
       <Docs>
         <param name="propertyDescriptor">The <see cref="T:System.ComponentModel.PropertyDescriptor" /> associated with the desired <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
-        <param name="propDesc">To be added.</param>
+        <param name="propDesc">The <see cref="T:System.ComponentModel.PropertyDescriptor" /> associated with the desired <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
         <summary>Gets a value indicating whether the <see cref="T:System.Windows.Forms.GridColumnStylesCollection" /> contains a <see cref="T:System.Windows.Forms.DataGridColumnStyle" /> associated with the specified <see cref="T:System.ComponentModel.PropertyDescriptor" />.</summary>
         <returns>
           <see langword="true" /> if the collection contains the <see cref="T:System.Windows.Forms.DataGridColumnStyle" />; otherwise, <see langword="false" />.</returns>
@@ -546,7 +546,7 @@
       </Parameters>
       <Docs>
         <param name="propertyDesciptor">The <see cref="T:System.ComponentModel.PropertyDescriptor" /> associated with the <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
-        <param name="propDesc">To be added.</param>
+        <param name="propDesc">The <see cref="T:System.ComponentModel.PropertyDescriptor" /> associated with the <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
         <summary>Gets the <see cref="T:System.Windows.Forms.DataGridColumnStyle" /> associated with the specified <see cref="T:System.ComponentModel.PropertyDescriptor" />.</summary>
         <value>The <see cref="T:System.Windows.Forms.DataGridColumnStyle" /> associated the specified <see cref="T:System.ComponentModel.PropertyDescriptor" />.</value>
         <remarks>
@@ -625,7 +625,7 @@
       </Parameters>
       <Docs>
         <param name="e">A <see cref="T:System.ComponentModel.CollectionChangeEventArgs" /> that contains the event data event.</param>
-        <param name="ccevent">To be added.</param>
+        <param name="ccevent">A <see cref="T:System.ComponentModel.CollectionChangeEventArgs" /> that contains the event data event.</param>
         <summary>Raises the <see cref="E:System.Windows.Forms.GridColumnStylesCollection.CollectionChanged" /> event.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1053,7 +1053,7 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="index">The zero-based index at which <c>value</c> should be inserted.</param>
+        <param name="index">The zero-based index at which <paramref name="value" /> should be inserted.</param>
         <param name="value">The object to insert into the collection.</param>
         <summary>This method is not supported by this control.</summary>
         <remarks>To be added.</remarks>

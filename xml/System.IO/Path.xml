@@ -179,7 +179,7 @@ For more information on file path formats on Windows, see [File path formats on 
       </Parameters>
       <Docs>
         <param name="path">The path information to modify. The path cannot contain any of the characters defined in <see cref="M:System.IO.Path.GetInvalidPathChars" />.</param>
-        <param name="extension">The new extension (with or without a leading period). Specify <see langword="null" /> to remove an existing extension from <c>path</c>.</param>
+        <param name="extension">The new extension (with or without a leading period). Specify <see langword="null" /> to remove an existing extension from <paramref name="path" />.</param>
         <summary>Changes the extension of a path string.</summary>
         <returns>The modified path information.  
   
@@ -842,7 +842,9 @@ For more information on file path formats on Windows, see [File path formats on 
  The returned value is `null` if the file path is `null`.  
   
  The separator characters used to determine the start of the file name are <xref:System.IO.Path.DirectorySeparatorChar> and <xref:System.IO.Path.AltDirectorySeparatorChar>.  
-  
+ 
+ Because `'\\'` is a legal file name on Unix, `GetFileName` running under Unix-based platforms cannot correctly return the file name from a Windows-based path like `C:\mydir\myfile.ext` but `GetFileName` running under Windows-based platforms can correctly return the file name from a Unix-based path like `/tmp/myfile.ext`, so the behavior `GetFileName` will not be strictly the same on Unix-based and Windows-based platforms.
+ 
  For a list of common I/O tasks, see [Common I/O Tasks](~/docs/standard/io/common-i-o-tasks.md).  
   
    
@@ -1427,7 +1429,7 @@ For more information on file path formats on Windows, see [File path formats on 
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method creates a temporary file with a .TMP file extension. The temporary file is created within the user’s temporary folder, which is the path returned by the <xref:System.IO.Path.GetTempPath%2A> method.  
+ This method creates a temporary file with a .TMP file extension. The temporary file is created within the user's temporary folder, which is the path returned by the <xref:System.IO.Path.GetTempPath%2A> method.  
   
  The <xref:System.IO.Path.GetTempFileName%2A> method will raise an <xref:System.IO.IOException> if it is used to create more than 65535 files without deleting previous temporary files.  
   
@@ -1439,7 +1441,7 @@ For more information on file path formats on Windows, see [File path formats on 
         </remarks>
         <exception cref="T:System.IO.IOException">An I/O error occurs, such as no unique temporary file name is available.  
   
- \- or -  
+-or-
   
  This method was unable to create a temporary file.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for writing to the temporary directory. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
@@ -1653,7 +1655,7 @@ C:\Users\UserName\AppData\Local\Temp\
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName>System.Obsolete("see GetInvalidPathChars and GetInvalidFileNameChars methods.")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;netframework-4.8;netcore-2.2">
           <AttributeName>System.Obsolete("Please use GetInvalidPathChars or GetInvalidFileNameChars instead.")</AttributeName>
         </Attribute>
       </Attributes>

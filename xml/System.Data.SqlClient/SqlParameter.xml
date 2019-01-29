@@ -10,6 +10,7 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.2.0.0</AssemblyVersion>
     <AssemblyVersion>4.4.0.0</AssemblyVersion>
+    <AssemblyVersion>4.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Data</AssemblyName>
@@ -44,7 +45,7 @@
     <Attribute FrameworkAlternate="netframework-1.1">
       <AttributeName>System.ComponentModel.TypeConverter(typeof(System.Data.SqlClient.SqlParameterConverter))</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-2.0;netcore-2.1;netcore-2.2">
       <AttributeName>System.ComponentModel.TypeConverter(typeof(System.Data.SqlClient.SqlParameter/SqlParameterConverter))</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8">
@@ -76,7 +77,7 @@
     </remarks>
     <altmember cref="T:System.Data.SqlClient.SqlParameterCollection" />
     <altmember cref="T:System.Data.SqlClient.SqlCommand" />
-    <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters</related>
+    <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters</related>
     <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters</related>
     <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">SQL Server and ADO.NET</related>
     <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -105,6 +106,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -131,7 +133,7 @@
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">SQL Server and ADO.NET</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -150,6 +152,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -187,7 +190,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The value supplied in the <paramref name="dbType" /> parameter is an invalid back-end data type.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -206,6 +209,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -238,9 +242,7 @@
 Parameter = new SqlParameter("@pname", (object)0);  
 ```  
   
- If you do not perform this conversion, the compiler assumes that you are trying to call the `SqlParameter` (`string`, `SqlDbType`) constructor overload.  
-  
-   
+If you do not perform this conversion, the compiler assumes that you are trying to call the <xref:System.Data.SqlClient.SqlParameter.%23ctor(System.String,System.Data.SqlDbType)> constructor overload.  
   
 ## Examples  
  The following example creates a <xref:System.Data.SqlClient.SqlParameter> and sets some of its properties.  
@@ -250,7 +252,7 @@ Parameter = new SqlParameter("@pname", (object)0);
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -269,6 +271,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -308,7 +311,7 @@ Parameter = new SqlParameter("@pname", (object)0);
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The value supplied in the <paramref name="dbType" /> parameter is an invalid back-end data type.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -327,6 +330,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -368,7 +372,7 @@ Parameter = new SqlParameter("@pname", (object)0);
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The value supplied in the <paramref name="dbType" /> parameter is an invalid back-end data type.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -392,12 +396,10 @@ Parameter = new SqlParameter("@pname", (object)0);
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -419,7 +421,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <param name="size">The length of the parameter.</param>
         <param name="direction">One of the <see cref="T:System.Data.ParameterDirection" /> values.</param>
         <param name="isNullable">
-          <see langword="true" /> if the value of the field can be null; otherwise <see langword="false" />.</param>
+          <see langword="true" /> if the value of the field can be null; otherwise, <see langword="false" />.</param>
         <param name="precision">The total number of digits to the left and right of the decimal point to which <see cref="P:System.Data.SqlClient.SqlParameter.Value" /> is resolved.</param>
         <param name="scale">The total number of decimal places to which <see cref="P:System.Data.SqlClient.SqlParameter.Value" /> is resolved.</param>
         <param name="sourceColumn">The name of the source column (<see cref="P:System.Data.SqlClient.SqlParameter.SourceColumn" />) if this <see cref="T:System.Data.SqlClient.SqlParameter" /> is used in a call to <see cref="Overload:System.Data.Common.DbDataAdapter.Update" />.</param>
@@ -443,7 +445,7 @@ Parameter = new SqlParameter("@pname", (object)0);
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The value supplied in the <paramref name="dbType" /> parameter is an invalid back-end data type.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -467,6 +469,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="parameterName" Type="System.String" />
@@ -508,7 +511,7 @@ Parameter = new SqlParameter("@pname", (object)0);
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -527,6 +530,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -569,6 +573,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -620,7 +625,7 @@ Parameter = new SqlParameter("@pname", (object)0);
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">SQL Server and ADO.NET</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -642,6 +647,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -655,16 +661,13 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.Data.DataSysDescription("DataParameter_Direction")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
         </Attribute>
       </Attributes>
@@ -742,6 +745,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -775,9 +779,9 @@ Parameter = new SqlParameter("@pname", (object)0);
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets a value that indicates whether the parameter accepts null values. <see cref="P:System.Data.SqlClient.SqlParameter.IsNullable" /> is not used to validate the parameter’s value and will not prevent sending or receiving a null value when executing a command.</summary>
+        <summary>Gets or sets a value that indicates whether the parameter accepts null values. <see cref="P:System.Data.SqlClient.SqlParameter.IsNullable" /> is not used to validate the parameter's value and will not prevent sending or receiving a null value when executing a command.</summary>
         <value>
-          <see langword="true" /> if null values are accepted; otherwise <see langword="false" />. The default is <see langword="false" />.</value>
+          <see langword="true" /> if null values are accepted; otherwise, <see langword="false" />. The default is <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -795,7 +799,7 @@ Parameter = new SqlParameter("@pname", (object)0);
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -814,6 +818,7 @@ Parameter = new SqlParameter("@pname", (object)0);
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -835,7 +840,7 @@ Parameter = new SqlParameter("@pname", (object)0);
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the locale identifier that determines conventions and language for a particular region.</summary>
-        <value>Returns the locale identifier associated with the parameter.</value>
+        <value>The locale identifier associated with the parameter.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -852,7 +857,7 @@ static void CreateSqlParameterLocaleId(){
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -871,6 +876,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -887,16 +893,13 @@ static void CreateSqlParameterLocaleId(){
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.ComponentModel.DefaultValue(0)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.Data.DataSysDescription("SqlParameter_Offset")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -924,7 +927,7 @@ static void CreateSqlParameterLocaleId(){
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -946,6 +949,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -988,7 +992,7 @@ static void CreateSqlParameterLocaleId(){
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">SQL Server and ADO.NET</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1010,6 +1014,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1023,7 +1028,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>System.ComponentModel.DefaultValue(0)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -1060,7 +1065,7 @@ static void CreateSqlParameterLocaleId(){
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">SQL Server and ADO.NET</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1079,6 +1084,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1105,7 +1111,7 @@ static void CreateSqlParameterLocaleId(){
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1124,6 +1130,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1150,7 +1157,7 @@ static void CreateSqlParameterLocaleId(){
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1172,6 +1179,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1185,7 +1193,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>System.ComponentModel.DefaultValue(0)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -1226,7 +1234,7 @@ static void CreateSqlParameterLocaleId(){
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1248,6 +1256,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1307,7 +1316,7 @@ static void CreateSqlParameterLocaleId(){
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1329,6 +1338,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1373,7 +1383,7 @@ static void CreateSqlParameterLocaleId(){
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">Using Parameters with a DataAdapter</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1392,6 +1402,7 @@ static void CreateSqlParameterLocaleId(){
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1433,7 +1444,7 @@ FieldName = @OriginalFieldName
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1461,6 +1472,7 @@ FieldName = @OriginalFieldName
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -1493,7 +1505,7 @@ FieldName = @OriginalFieldName
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1512,6 +1524,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1525,16 +1538,13 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>System.Data.Common.DbProviderSpecificTypeProperty(true)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -1560,7 +1570,7 @@ FieldName = @OriginalFieldName
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">Using Parameters with a DataAdapter</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1579,6 +1589,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1594,10 +1605,7 @@ FieldName = @OriginalFieldName
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -1628,7 +1636,7 @@ FieldName = @OriginalFieldName
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1655,6 +1663,7 @@ FieldName = @OriginalFieldName
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -1687,6 +1696,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1708,7 +1718,7 @@ FieldName = @OriginalFieldName
         <returns>A string that contains the <see cref="P:System.Data.SqlClient.SqlParameter.ParameterName" />.</returns>
         <remarks>To be added.</remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1727,6 +1737,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1742,11 +1753,8 @@ FieldName = @OriginalFieldName
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1758,7 +1766,7 @@ FieldName = @OriginalFieldName
         <remarks>To be added.</remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/370c16d5-db7b-43e3-945b-ccaab35b739b">Table-Valued Parameters (Katmai)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1781,16 +1789,14 @@ FieldName = @OriginalFieldName
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1807,7 +1813,7 @@ FieldName = @OriginalFieldName
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
@@ -1828,6 +1834,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1841,10 +1848,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8;netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>System.ComponentModel.TypeConverter(typeof(System.ComponentModel.StringConverter))</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -1853,7 +1857,7 @@ FieldName = @OriginalFieldName
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.Data.DataSysDescription("DataParameter_Value")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
         </Attribute>
       </Attributes>
@@ -1869,7 +1873,7 @@ FieldName = @OriginalFieldName
 ## Remarks  
  For input parameters, the value is bound to the <xref:System.Data.SqlClient.SqlCommand> that is sent to the server. For output and return value parameters, the value is set on completion of the <xref:System.Data.SqlClient.SqlCommand> and after the <xref:System.Data.SqlClient.SqlDataReader> is closed.  
   
- This property can be set to null or <xref:System.DBNull.Value>. Use <xref:System.DBNull.Value> to send a NULL value as the value of the parameter. Use null or do not set <xref:System.Data.SqlClient.SqlParameter.Value%2A> to use the default value for the parameter.  
+ This property can be set to `null` or <xref:System.DBNull.Value?displayProperty=nameWithType>. Use <xref:System.DBNull.Value?displayProperty=nameWithType> to send a NULL value as the value of the parameter. Use `null` or do not set <xref:System.Data.SqlClient.SqlParameter.Value%2A> to use the default value for the parameter.  
   
  An exception is thrown if non-Unicode XML data is passed as a string.  
   
@@ -1892,7 +1896,7 @@ FieldName = @OriginalFieldName
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/81b43550-23e8-43bb-b460-7eb8ac825c33">SQL Server Data Types and ADO.NET</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1911,6 +1915,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1952,6 +1957,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1977,7 +1983,7 @@ FieldName = @OriginalFieldName
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1996,6 +2002,7 @@ FieldName = @OriginalFieldName
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -2021,7 +2028,7 @@ FieldName = @OriginalFieldName
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>

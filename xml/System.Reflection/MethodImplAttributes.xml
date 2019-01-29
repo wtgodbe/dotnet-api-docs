@@ -35,8 +35,8 @@
     <Attribute FrameworkAlternate="netframework-1.1">
       <AttributeName>System.Flags</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -609,6 +609,35 @@
       <Docs>
         <summary>Specifies that the method implementation is provided by the runtime.</summary>
         <forInternalUseOnly />
+      </Docs>
+    </Member>
+    <Member MemberName="SecurityMitigations">
+      <MemberSignature Language="C#" Value="SecurityMitigations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Reflection.MethodImplAttributes SecurityMitigations = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:System.Reflection.MethodImplAttributes.SecurityMitigations" />
+      <MemberSignature Language="VB.NET" Value="SecurityMitigations" />
+      <MemberSignature Language="C++ CLI" Value="SecurityMitigations" />
+      <MemberSignature Language="F#" Value="SecurityMitigations = 1024" Usage="System.Reflection.MethodImplAttributes.SecurityMitigations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Reflection.Primitives</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Reflection.MethodImplAttributes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Synchronized">

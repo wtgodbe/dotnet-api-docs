@@ -155,7 +155,7 @@
       </Parameters>
       <Docs>
         <param name="connection">An <see cref="T:System.Data.EntityClient.EntityConnection" /> that contains references to the model and to the data source connection.</param>
-        <param name="defaultContainerName">The name of the default entity container. When the <c>defaultContainerName</c> is set through this method, the property becomes read-only.</param>
+        <param name="defaultContainerName">The name of the default entity container. When the <paramref name="defaultContainerName" /> is set through this method, the property becomes read-only.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Data.Objects.ObjectContext" /> class with a given connection and entity container name.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">The <paramref name="connection" /> is <see langword="null" />.</exception>
@@ -182,7 +182,7 @@
       </Parameters>
       <Docs>
         <param name="connectionString">The connection string, which also provides access to the metadata information.</param>
-        <param name="defaultContainerName">The name of the default entity container. When the <c>defaultContainerName</c> is set through this method, the property becomes read-only.</param>
+        <param name="defaultContainerName">The name of the default entity container. When the <paramref name="defaultContainerName" /> is set through this method, the property becomes read-only.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Data.Objects.ObjectContext" /> class with a given connection string and entity container name.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -329,7 +329,7 @@
       <Docs>
         <typeparam name="TEntity">The entity type of the object.</typeparam>
         <param name="entitySetName">The name of the entity set to which the object belongs.</param>
-        <param name="currentEntity">The detached object that has property updates to apply to the original object. The entity key of <c>currentEntity</c> must match the <see cref="P:System.Data.Objects.ObjectStateEntry.EntityKey" /> property of an entry in the <see cref="T:System.Data.Objects.ObjectContext" />.</param>
+        <param name="currentEntity">The detached object that has property updates to apply to the original object. The entity key of <paramref name="currentEntity" /> must match the <see cref="P:System.Data.Objects.ObjectStateEntry.EntityKey" /> property of an entry in the <see cref="T:System.Data.Objects.ObjectContext" />.</param>
         <summary>Copies the scalar values from the supplied object into the object in the <see cref="T:System.Data.Objects.ObjectContext" /> that has the same key.</summary>
         <returns>The updated object.</returns>
         <remarks>
@@ -346,7 +346,7 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="entitySetName" /> or <paramref name="current" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object’s <see cref="T:System.Data.EntityKey" />.  
+        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object's <see cref="T:System.Data.EntityKey" />.  
   
  -or-  
   
@@ -390,7 +390,7 @@
       <Docs>
         <typeparam name="TEntity">The type of the entity object.</typeparam>
         <param name="entitySetName">The name of the entity set to which the object belongs.</param>
-        <param name="originalEntity">The detached object that has original values to apply to the object. The entity key of <c>originalEntity</c> must match the <see cref="P:System.Data.Objects.ObjectStateEntry.EntityKey" /> property of an entry in the <see cref="T:System.Data.Objects.ObjectContext" />.</param>
+        <param name="originalEntity">The detached object that has original values to apply to the object. The entity key of <paramref name="originalEntity" /> must match the <see cref="P:System.Data.Objects.ObjectStateEntry.EntityKey" /> property of an entry in the <see cref="T:System.Data.Objects.ObjectContext" />.</param>
         <summary>Copies the scalar values from the supplied object into set of original values for the object in the <see cref="T:System.Data.Objects.ObjectContext" /> that has the same key.</summary>
         <returns>The updated object.</returns>
         <remarks>
@@ -407,7 +407,7 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="entitySetName" /> or <paramref name="original" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object’s <see cref="T:System.Data.EntityKey" />.  
+        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object's <see cref="T:System.Data.EntityKey" />.  
   
  -or-  
   
@@ -442,10 +442,10 @@
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.Obsolete("Use ApplyCurrentValues instead")</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("Use ApplyCurrentValues instead")</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -482,7 +482,7 @@
  -or-  
   
  When <paramref name="changed" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">When the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object’s <see cref="T:System.Data.EntityKey" />.  
+        <exception cref="T:System.InvalidOperationException">When the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object's <see cref="T:System.Data.EntityKey" />.  
   
  -or-  
   
@@ -699,7 +699,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property returns the connection object that was passed into the constructor or created during construction. The connection’s ownership is determined by the constructors used.  
+ This property returns the connection object that was passed into the constructor or created during construction. The connection's ownership is determined by the constructors used.  
   
    
   
@@ -969,7 +969,7 @@
         <summary>Creates a new <see cref="T:System.Data.Objects.ObjectSet`1" /> instance that is used to query, add, modify, and delete objects of the specified type and with the specified entity set name.</summary>
         <returns>The new <see cref="T:System.Data.Objects.ObjectSet`1" /> instance.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object’s <see cref="T:System.Data.EntityKey" />.  
+        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Data.Metadata.Edm.EntitySet" /> from <paramref name="entitySetName" /> does not match the <see cref="T:System.Data.Metadata.Edm.EntitySet" /> of the object's <see cref="T:System.Data.EntityKey" />.  
   
  -or-  
   
@@ -1246,7 +1246,7 @@
         <Parameter Name="entity" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="entity">Object to be detached. Only the <c>entity</c> is removed; if there are any related objects that are being tracked by the same <see cref="T:System.Data.Objects.ObjectStateManager" />, those will not be detached automatically.</param>
+        <param name="entity">Object to be detached. Only the <paramref name="entity" /> is removed; if there are any related objects that are being tracked by the same <see cref="T:System.Data.Objects.ObjectStateManager" />, those will not be detached automatically.</param>
         <summary>Removes the object from the object context.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1639,11 +1639,11 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <typeparam name="TElement">To be added.</typeparam>
+        <typeparam name="TElement">The type of the returned data.</typeparam>
         <param name="commandText">The command to execute, in the native language of the data source.</param>
         <param name="parameters">An array of parameters to pass to the command.</param>
         <summary>Executes a query directly against the data source that returns a sequence of typed results.</summary>
-        <returns>An enumeration of objects of type <paramref name="TResult" />.</returns>
+        <returns>An enumeration of objects of type <paramref name="TElement" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1700,9 +1700,9 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <typeparam name="TEntity">To be added.</typeparam>
+        <typeparam name="TEntity">The entity type of the returned data.</typeparam>
         <param name="commandText">The command to execute, in the native language of the data source.</param>
-        <param name="entitySetName">The entity set of the <c>TResult</c> type. If an entity set name is not provided, the results are not going to be tracked.</param>
+        <param name="entitySetName">The entity set of the <typeparamref name="TEntity" /> type. If an entity set name is not provided, the results are not going to be tracked.</param>
         <param name="mergeOption">The <see cref="T:System.Data.Objects.MergeOption" /> to use when executing the query. The default is <see cref="F:System.Data.Objects.MergeOption.AppendOnly" />.</param>
         <param name="parameters">An array of parameters to pass to the command.</param>
         <summary>Executes a query directly against the data source and returns a sequence of typed results. Specify the entity set and the merge option so that query results can be tracked as entities.</summary>
@@ -1971,7 +1971,7 @@
         <Parameter Name="selector" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;TEntity,System.Object&gt;&gt;" />
       </Parameters>
       <Docs>
-        <typeparam name="TEntity">To be added.</typeparam>
+        <typeparam name="TEntity">The type of the supplied object.</typeparam>
         <param name="entity">The source object for which related objects are to be loaded.</param>
         <param name="selector">A LINQ expression that defines the related objects to be loaded.</param>
         <summary>Explicitly loads an object that is related to the supplied object by the specified LINQ query and by using the default merge option.</summary>
@@ -2023,7 +2023,7 @@
         <Parameter Name="mergeOption" Type="System.Data.Objects.MergeOption" />
       </Parameters>
       <Docs>
-        <typeparam name="TEntity">To be added.</typeparam>
+        <typeparam name="TEntity">The type of the supplied object.</typeparam>
         <param name="entity">The source object for which related objects are to be loaded.</param>
         <param name="selector">A LINQ expression that defines the related objects to be loaded.</param>
         <param name="mergeOption">The <see cref="T:System.Data.Objects.MergeOption" /> value to use when you load the related objects.</param>
@@ -2225,7 +2225,7 @@
   
  The order in which objects are refreshed is nondeterministic.  
   
- After <xref:System.Data.Objects.ObjectContext.Refresh%2A> is called, the object’s original values will always be updated with the data source value, but the current values might or might not be updated with the data source value. This depends on the <xref:System.Data.Objects.RefreshMode> value. The <xref:System.Data.Objects.RefreshMode.StoreWins> mode means that the objects in the collection should be updated to match the data source values. <xref:System.Data.Objects.RefreshMode.ClientWins> means that only the changes in the object context will be persisted, even if there have been other changes in the data source.  
+ After <xref:System.Data.Objects.ObjectContext.Refresh%2A> is called, the object's original values will always be updated with the data source value, but the current values might or might not be updated with the data source value. This depends on the <xref:System.Data.Objects.RefreshMode> value. The <xref:System.Data.Objects.RefreshMode.StoreWins> mode means that the objects in the collection should be updated to match the data source values. <xref:System.Data.Objects.RefreshMode.ClientWins> means that only the changes in the object context will be persisted, even if there have been other changes in the data source.  
   
  To ensure that objects have been updated by data source-side logic, you can call <xref:System.Data.Objects.ObjectContext.Refresh%2A> with <xref:System.Data.Objects.RefreshMode.StoreWins> after you call the <xref:System.Data.Objects.ObjectContext.SaveChanges%2A> method.  
   
@@ -2275,7 +2275,7 @@
   
  The order in which objects are refreshed is nondeterministic.  
   
- After the <xref:System.Data.Objects.ObjectContext.Refresh%2A> method is called, the object’s original values will always be updated with the data source value, but the current values might or might not be updated with the data source value. This depends on the <xref:System.Data.Objects.RefreshMode>. The <xref:System.Data.Objects.RefreshMode.StoreWins> mode means that the object should be updated to match the data source values. The <xref:System.Data.Objects.RefreshMode.ClientWins> value means that only the changes in the object context will be persisted, even if there have been other changes in the data source.  
+ After the <xref:System.Data.Objects.ObjectContext.Refresh%2A> method is called, the object's original values will always be updated with the data source value, but the current values might or might not be updated with the data source value. This depends on the <xref:System.Data.Objects.RefreshMode>. The <xref:System.Data.Objects.RefreshMode.StoreWins> mode means that the object should be updated to match the data source values. The <xref:System.Data.Objects.RefreshMode.ClientWins> value means that only the changes in the object context will be persisted, even if there have been other changes in the data source.  
   
  To ensure that an object has been updated by data source-side logic, you can call the <xref:System.Data.Objects.ObjectContext.Refresh%2A> method with the <xref:System.Data.Objects.RefreshMode.StoreWins> value after you call the <xref:System.Data.Objects.ObjectContext.SaveChanges%2A> method.  
   
@@ -2378,10 +2378,10 @@
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.Obsolete("Use SaveChanges(SaveOptions options) instead.")</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("Use SaveChanges(SaveOptions options) instead.")</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2503,7 +2503,7 @@
         <Parameter Name="reader" Type="System.Data.Common.DbDataReader" />
       </Parameters>
       <Docs>
-        <typeparam name="TElement">To be added.</typeparam>
+        <typeparam name="TElement">The entity type of the data in the <see cref="T:System.Data.Common.DbDataReader" />.</typeparam>
         <param name="reader">The <see cref="T:System.Data.Common.DbDataReader" /> that contains entity data to translate into entity objects.</param>
         <summary>Translates a <see cref="T:System.Data.Common.DbDataReader" /> that contains rows of entity data to objects of the requested entity type.</summary>
         <returns>An enumeration of objects of type <paramref name="TResult" />.</returns>
@@ -2549,9 +2549,9 @@
         <Parameter Name="mergeOption" Type="System.Data.Objects.MergeOption" />
       </Parameters>
       <Docs>
-        <typeparam name="TEntity">To be added.</typeparam>
+        <typeparam name="TEntity">The entity type of the data in the <see cref="T:System.Data.Common.DbDataReader" />.</typeparam>
         <param name="reader">The <see cref="T:System.Data.Common.DbDataReader" /> that contains entity data to translate into entity objects.</param>
-        <param name="entitySetName">The entity set of the <c>TResult</c> type.</param>
+        <param name="entitySetName">The entity set of the <typeparamref name="TEntity" /> type.</param>
         <param name="mergeOption">The <see cref="T:System.Data.Objects.MergeOption" /> to use when translated objects are added to the object context. The default is <see cref="F:System.Data.Objects.MergeOption.AppendOnly" />.</param>
         <summary>Translates a <see cref="T:System.Data.Common.DbDataReader" /> that contains rows of entity data to objects of the requested entity type, in a specific entity set, and with the specified merge option.</summary>
         <returns>An enumeration of objects of type <paramref name="TResult" />.</returns>

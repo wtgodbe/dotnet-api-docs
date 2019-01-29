@@ -45,8 +45,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Returns a reference to the element that the iterator is currently pointing to.</summary>
+        <returns>A reference to the element that the iterator is currently pointing to.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

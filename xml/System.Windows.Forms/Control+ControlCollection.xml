@@ -161,10 +161,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -439,7 +436,8 @@
         <summary>Searches for controls by their <see cref="P:System.Windows.Forms.Control.Name" /> property and builds an array of all the controls that match.</summary>
         <returns>An array of type <see cref="T:System.Windows.Forms.Control" /> containing the matching controls.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">The <paramref name="key" /> parameter is <see langword="null" /> or the empty string ("").</exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="key" /> is <see langword="null" /> or the empty string ("").</exception>
       </Docs>
     </Member>
     <MemberGroup MemberName="GetChildIndex">
@@ -516,7 +514,7 @@
       <Docs>
         <param name="child">The <see cref="T:System.Windows.Forms.Control" /> to search for in the control collection.</param>
         <param name="throwException">
-          <see langword="true" /> to throw an exception if the <see cref="T:System.Windows.Forms.Control" /> specified in the <c>child</c> parameter is not a control in the <see cref="T:System.Windows.Forms.Control.ControlCollection" />; otherwise, <see langword="false" />.</param>
+          <see langword="true" /> to throw an exception if the <see cref="T:System.Windows.Forms.Control" /> specified in the <paramref name="child" /> parameter is not a control in the <see cref="T:System.Windows.Forms.Control.ControlCollection" />; otherwise, <see langword="false" />.</param>
         <summary>Retrieves the index of the specified child control within the control collection, and optionally raises an exception if the specified control is not within the control collection.</summary>
         <returns>A zero-based index value that represents the location of the specified child control within the control collection; otherwise -1 if the specified <see cref="T:System.Windows.Forms.Control" /> is not found in the <see cref="T:System.Windows.Forms.Control.ControlCollection" />.</returns>
         <remarks>
@@ -947,7 +945,7 @@
         <Parameter Name="newIndex" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="child">The <c>child</c><see cref="T:System.Windows.Forms.Control" /> to search for.</param>
+        <param name="child">The <paramref name="child" /><see cref="T:System.Windows.Forms.Control" /> to search for.</param>
         <param name="newIndex">The new index value of the control.</param>
         <summary>Sets the index of the specified child control in the collection to the specified index value.</summary>
         <remarks>
@@ -985,9 +983,9 @@
         <Parameter Name="control" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="control">To be added.</param>
+        <param name="control">The object to add to this collection.</param>
         <summary>For a description of this member, see <see cref="M:System.Collections.IList.Add(System.Object)" />.</summary>
-        <returns>To be added.</returns>
+        <returns>The position into which the new element was inserted, or -1 to indicate that the item was not inserted into the collection.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -996,6 +994,7 @@
   
  ]]></format>
         </remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Contains">
@@ -1019,10 +1018,19 @@
         <Parameter Name="control" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="control">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="control">The object to locate in the <see cref="T:System.Windows.Forms.Control.ControlCollection" />.</param>
+        <summary>For a description of this member, see <see cref="M:System.Collections.IList.Contains(System.Object)" />.</summary>
+        <returns>
+          <see langword="true" /> if the <see cref="T:System.Windows.Forms.Control.ControlCollection" /> contains an element that has the specified object; otherwise, <see langword="false" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+ ## Remarks  
+This member is an explicit interface member implementation. It can be used only when the <xref:System.Windows.Forms.Control.ControlCollection> instance is cast to an <xref:System.Collections.IList> interface.
+
+]]></format>
+        </remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.IndexOf">
@@ -1046,10 +1054,17 @@
         <Parameter Name="control" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="control">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="control">The object to locate in the <see cref="T:System.Windows.Forms.Control.ControlCollection" />.</param>
+        <summary>For a description of this member, see <see cref="M:System.Collections.IList.IndexOf(System.Object)" />.</summary>
+        <returns>The index of <paramref name="control" /> if found in the <see cref="T:System.Windows.Forms.Control.ControlCollection" />; otherwise, -1.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+ ## Remarks  
+This member is an explicit interface member implementation. It can be used only when the <xref:System.Windows.Forms.Control.ControlCollection> instance is cast to an <xref:System.Collections.IList> interface.
+
+]]></format>
+        </remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Insert">
@@ -1074,10 +1089,17 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="index">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="index">The zero-based index at which <paramref name="value" /> should be inserted.</param>
+        <param name="value">The object to insert.</param>
+        <summary>For a description of this member, see <see cref="M:System.Collections.IList.Insert(System.Int32,System.Object)" />.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+ ## Remarks  
+This member is an explicit interface member implementation. It can be used only when the <xref:System.Windows.Forms.Control.ControlCollection> instance is cast to an <xref:System.Collections.IList> interface.
+
+]]></format>
+        </remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Remove">
@@ -1103,7 +1125,7 @@
         <Parameter Name="control" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="control">To be added.</param>
+        <param name="value">The object to remove from the <see cref="T:System.Windows.Forms.Control.ControlCollection" />.</param>
         <summary>For a description of this member, see <see cref="M:System.Collections.IList.Remove(System.Object)" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1113,6 +1135,7 @@
   
  ]]></format>
         </remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="System.ICloneable.Clone">
@@ -1137,7 +1160,7 @@
       <Parameters />
       <Docs>
         <summary>For a description of this member, see <see cref="M:System.ICloneable.Clone" />.</summary>
-        <returns>To be added.</returns>
+        <returns>A new object that is a copy of this instance.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1146,6 +1169,7 @@
   
  ]]></format>
         </remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
   </Members>

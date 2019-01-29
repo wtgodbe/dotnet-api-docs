@@ -16,7 +16,7 @@
   <Interfaces />
   <Attributes>
     <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -1017,10 +1017,7 @@ namespace SampleSynthesis
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -2094,7 +2091,7 @@ namespace SampleSynthesis
  The <xref:System.Speech.Synthesis.PromptBuilder.StartStyle%2A> method takes a <xref:System.Speech.Synthesis.PromptStyle> object as its argument. You can use the properties of the <xref:System.Speech.Synthesis.PromptStyle> object to set the emphasis, speaking rate, and volume (loudness) to apply to speech output while the style is in effect. To stop using the current style, call the <xref:System.Speech.Synthesis.PromptBuilder.EndStyle%2A> method.  
   
 > [!NOTE]
->  -   The speech synthesis engines in Windows do not support the emphasis parameter at this time. Setting values for the emphasis parameter will produce no audible change in the synthesized speech output.  
+> -   The speech synthesis engines in Windows do not support the emphasis parameter at this time. Setting values for the emphasis parameter will produce no audible change in the synthesized speech output.  
 > -   The <xref:System.Speech.Synthesis.PromptVolume.Default> setting for <xref:System.Speech.Synthesis.PromptVolume> is full volume, which is the same as <xref:System.Speech.Synthesis.PromptVolume.ExtraLoud>. The other settings decrease the volume of speech output relative to full volume.  
   
    
@@ -2157,7 +2154,7 @@ namespace SampleSynthesis
 ## Remarks  
  A voice represents an installed TTS engine. Use the <xref:System.Speech.Synthesis.SpeechSynthesizer.GetInstalledVoices%2A> methods and <xref:System.Speech.Synthesis.VoiceInfo> class to obtain the names and attributes of installed text-to-speech (TTS) voices that you can select.  
   
- When an application calls <xref:System.Speech.Synthesis.SpeechSynthesizer.GetInstalledVoices%2A>, the method verifies that each of the voices it finds in the registry meets certain minimum criteria. For any voice that fails verification, <xref:System.Speech.Synthesis.SpeechSynthesizer.GetInstalledVoices%2A> sets its <xref:System.Speech.Synthesis.InstalledVoice.Enabled%2A> property to `False`. An application cannot call any of the <xref:System.Speech.Synthesis.PromptBuilder.StartVoice%2A> methods on a voice whose <xref:System.Speech.Synthesis.InstalledVoice.Enabled%2A> property is `False`. Typically, applications will not set a voice’s <xref:System.Speech.Synthesis.InstalledVoice.Enabled%2A> property.  
+ When an application calls <xref:System.Speech.Synthesis.SpeechSynthesizer.GetInstalledVoices%2A>, the method verifies that each of the voices it finds in the registry meets certain minimum criteria. For any voice that fails verification, <xref:System.Speech.Synthesis.SpeechSynthesizer.GetInstalledVoices%2A> sets its <xref:System.Speech.Synthesis.InstalledVoice.Enabled%2A> property to `False`. An application cannot call any of the <xref:System.Speech.Synthesis.PromptBuilder.StartVoice%2A> methods on a voice whose <xref:System.Speech.Synthesis.InstalledVoice.Enabled%2A> property is `False`. Typically, applications will not set a voice's <xref:System.Speech.Synthesis.InstalledVoice.Enabled%2A> property.  
   
  ]]></format>
         </remarks>
@@ -2369,7 +2366,7 @@ namespace SampleSynthesis
       <Docs>
         <param name="gender">The gender of the voice to use.</param>
         <param name="age">The age of the voice to use.</param>
-        <param name="voiceAlternate">An integer that specifies a preferred voice when more than one voice matches the <c>gender</c> and <c>age</c> parameters.</param>
+        <param name="voiceAlternate">An integer that specifies a preferred voice when more than one voice matches the <paramref name="gender" /> and <paramref name="age" /> parameters.</param>
         <summary>Instructs the synthesizer to change the voice in the <see cref="T:System.Speech.Synthesis.PromptBuilder" /> object and specifies its gender, age, and a preferred voice that matches the specified gender and age.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  

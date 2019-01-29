@@ -50,8 +50,8 @@
     <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Concurrent.SystemCollectionsConcurrent_ProducerConsumerCollectionDebugView`1))</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -225,7 +225,7 @@
       </Parameters>
       <Docs>
         <param name="array">The one-dimensional <see cref="T:System.Array" /> that is the destination of the elements copied from the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />. The <see cref="T:System.Array" /> must have zero-based indexing.</param>
-        <param name="index">The zero-based index in <c>array</c> at which copying begins.</param>
+        <param name="index">The zero-based index in <paramref name="array" /> at which copying begins.</param>
         <summary>Copies the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> elements to an existing one-dimensional <see cref="T:System.Array" />, starting at the specified array index.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -351,7 +351,8 @@
       </ReturnValue>
       <Docs>
         <summary>Gets a value that indicates whether the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> is empty.</summary>
-        <value>true if the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> is empty; otherwise, false.</value>
+        <value>
+          <see langword="true" /> if the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> is empty; otherwise, <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -493,7 +494,7 @@
       </Parameters>
       <Docs>
         <param name="items">The objects to push onto the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</param>
-        <param name="startIndex">The zero-based offset in <c>items</c> at which to begin inserting elements onto the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</param>
+        <param name="startIndex">The zero-based offset in <paramref name="items" /> at which to begin inserting elements onto the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</param>
         <param name="count">The number of elements to be inserted onto the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</param>
         <summary>Inserts multiple objects at the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> atomically.</summary>
         <remarks>
@@ -593,7 +594,7 @@
         <Parameter Name="item" Type="T" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="item">When this method returns, if the operation was successful, <c>item</c> contains the object removed. If no object was available to be removed, the value is unspecified.</param>
+        <param name="item">When this method returns, if the operation was successful, <paramref name="item" /> contains the object removed. If no object was available to be removed, the value is unspecified.</param>
         <summary>Attempts to remove and return an object from the <see cref="T:System.Collections.Concurrent.IProducerConsumerCollection`1" />.</summary>
         <returns>true if an element was removed and returned succesfully; otherwise, false.</returns>
         <remarks>
@@ -640,7 +641,7 @@
       </Parameters>
       <Docs>
         <param name="array">The one-dimensional <see cref="T:System.Array" /> that is the destination of the elements copied from the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />. The <see cref="T:System.Array" /> must have zero-based indexing.</param>
-        <param name="index">The zero-based index in <c>array</c> at which copying begins.</param>
+        <param name="index">The zero-based index in <paramref name="array" /> at which copying begins.</param>
         <summary>Copies the elements of the <see cref="T:System.Collections.ICollection" /> to an <see cref="T:System.Array" />, starting at a particular <see cref="T:System.Array" /> index.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -683,7 +684,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets a value indicating whether access to the <see cref="T:System.Collections.ICollection" /> is synchronized with the SyncRoot.</summary>
-        <value>true if access to the <see cref="T:System.Collections.ICollection" /> is synchronized with the SyncRoot; otherwise, false. For <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />, this property always returns false.</value>
+        <value>Always returns <see langword="false" /> to indicate access is not synchronized.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -833,7 +834,7 @@
         <Parameter Name="result" Type="T" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="result">When this method returns, <c>result</c> contains an object from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> or an unspecified value if the operation failed.</param>
+        <param name="result">When this method returns, <paramref name="result" /> contains an object from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> or an unspecified value if the operation failed.</param>
         <summary>Attempts to return an object from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> without removing it.</summary>
         <returns>true if and object was returned successfully; otherwise, false.</returns>
         <remarks>To be added.</remarks>
@@ -870,7 +871,7 @@
         <Parameter Name="result" Type="T" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="result">When this method returns, if the operation was successful, <c>result</c> contains the object removed. If no object was available to be removed, the value is unspecified.</param>
+        <param name="result">When this method returns, if the operation was successful, <paramref name="result" /> contains the object removed. If no object was available to be removed, the value is unspecified.</param>
         <summary>Attempts to pop and return the object at the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</summary>
         <returns>true if an element was removed and returned from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> successfully; otherwise, false.</returns>
         <remarks>
@@ -976,8 +977,8 @@
       </Parameters>
       <Docs>
         <param name="items">The <see cref="T:System.Array" /> to which objects popped from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> will be added.</param>
-        <param name="startIndex">The zero-based offset in <c>items</c> at which to begin inserting elements from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</param>
-        <param name="count">The number of elements to be popped from top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> and inserted into <c>items</c>.</param>
+        <param name="startIndex">The zero-based offset in <paramref name="items" /> at which to begin inserting elements from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" />.</param>
+        <param name="count">The number of elements to be popped from top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> and inserted into <paramref name="items" />.</param>
         <summary>Attempts to pop and return multiple objects from the top of the <see cref="T:System.Collections.Concurrent.ConcurrentStack`1" /> atomically.</summary>
         <returns>The number of objects successfully popped from the top of the stack and inserted in <paramref name="items" />.</returns>
         <remarks>

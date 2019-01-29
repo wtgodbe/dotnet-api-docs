@@ -303,7 +303,7 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">The name of the HTTP header to add <c>value</c> to.</param>
+        <param name="name">The name of the HTTP header to add <paramref name="value" /> to.</param>
         <param name="value">The string to add to the header.</param>
         <summary>Adds an HTTP header to the current response. This method is provided for compatibility with earlier versions of ASP.</summary>
         <remarks>To be added.</remarks>
@@ -1125,7 +1125,7 @@
         <exception cref="T:System.ArgumentNullException">The encoding value is <see langword="null" />.</exception>
         <exception cref="T:System.Web.HttpException">The encoding value is <see cref="P:System.Text.Encoding.Unicode" />.  
   
- \- or -  
+-or-
   
  The headers have already been sent.</exception>
       </Docs>
@@ -2414,21 +2414,21 @@
       <Docs>
         <param name="filename">The name of the file to write to the HTTP output stream.</param>
         <param name="offset">The position in the file where writing starts.</param>
-        <param name="length">The number of bytes to write, starting at <c>offset</c>.</param>
+        <param name="length">The number of bytes to write, starting at <paramref name="offset" />.</param>
         <summary>Writes the specified part of a file to the HTTP response output stream, without buffering it in memory.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">The <paramref name="offset" /> parameter is less than zero.  
   
- \- or -  
+-or-
   
  The <paramref name="length" /> parameter is less than -1.  
   
- \- or -  
+-or-
   
  The <paramref name="length" /> parameter is greater than the file size minus <paramref name="offset" />.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The out-of-process worker request is not supported.  
   
- \- or -  
+-or-
   
  The response is not using a <see cref="T:System.Web.HttpWriter" /> object.</exception>
       </Docs>
@@ -2579,7 +2579,7 @@
       <Docs>
         <param name="buffer">The character array to write.</param>
         <param name="index">The position in the character array where writing starts.</param>
-        <param name="count">The number of characters to write, starting at <c>index</c>.</param>
+        <param name="count">The number of characters to write, starting at <paramref name="index" />.</param>
         <summary>Writes the specified array of characters to the HTTP response output stream.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2681,7 +2681,7 @@
       <Docs>
         <param name="fileHandle">The file handle of the file to write to the HTTP output stream.</param>
         <param name="offset">The position in the file where writing starts.</param>
-        <param name="size">The number of bytes to write, starting at <c>offset</c>.</param>
+        <param name="size">The number of bytes to write, starting at <paramref name="offset" />.</param>
         <summary>Writes the specified file to the HTTP response output stream.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2689,7 +2689,7 @@
         <exception cref="T:System.Web.HttpException">
           <paramref name="offset" /> is less than 0.  
   
- \- or -  
+-or-
   
  <paramref name="size" /> is greater than the file size minus <paramref name="offset" />.</exception>
       </Docs>
@@ -2721,13 +2721,13 @@
       <Docs>
         <param name="filename">The name of the file to write to the HTTP output stream.</param>
         <param name="offset">The position in the file where writing starts.</param>
-        <param name="size">The number of bytes to write, starting at <c>offset</c>.</param>
+        <param name="size">The number of bytes to write, starting at <paramref name="offset" />.</param>
         <summary>Writes the specified file to the HTTP response output stream.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.Web.HttpException">
           <paramref name="offset" /> is less than 0.  
   
- \- or -  
+-or-
   
  <paramref name="size" /> is greater than the file size minus <paramref name="offset" />.</exception>
       </Docs>

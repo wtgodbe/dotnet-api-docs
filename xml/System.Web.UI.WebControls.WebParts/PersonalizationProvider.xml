@@ -235,7 +235,7 @@
         </remarks>
         <exception cref="T:System.ArgumentException">The page associated with <paramref name="webPartManager" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  The request associated with the page is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentNullException">
@@ -285,7 +285,7 @@
   
  This method passes query wildcard characters to the underlying data store. Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).  
   
- Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property. For example, to find all paths that start with "~/vdir", the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property would be set to "~/vdir%".  
+ Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property. For example, to find all paths that start with "\~/vdir", the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property would be set to "\~/vdir%".  
   
  Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A> property. For example, to find all user names that start with "John", the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A> parameter would look like "John%".  
   
@@ -344,7 +344,7 @@
   
  This method passes query wildcard characters to the underlying data store. Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).  
   
- Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property. For example, to find all paths that start with "~/vdir", the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property would be set to "~/vdir%".  
+ Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property. For example, to find all paths that start with "\~/vdir", the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A> property would be set to "\~/vdir%".  
   
  Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A> property. For example, to find all user names that start with "John", the <xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A> parameter would look like "John%".  
   
@@ -460,7 +460,7 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="webPartManager" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">The page associated with <paramref name="webPartManager" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  The request associated with the page is <see langword="null" />.</exception>
       </Docs>
@@ -536,7 +536,7 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="webPartManager" /> is not associated with a page.  
   
- \- or -  
+-or-
   
  The page is not associated with an in-progress <see cref="T:System.Web.HttpRequest" />.</exception>
       </Docs>

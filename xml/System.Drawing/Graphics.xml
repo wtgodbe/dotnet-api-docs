@@ -14,6 +14,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Drawing.Common</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.1</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.MarshalByRefObject</BaseTypeName>
@@ -86,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -165,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.GraphicsContainer</ReturnType>
@@ -231,6 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.GraphicsContainer</ReturnType>
@@ -242,9 +246,9 @@
       </Parameters>
       <Docs>
         <param name="dstrect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that, together with the <c>srcrect</c> parameter, specifies a scale transformation for the container.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that, together with the <paramref name="srcrect" /> parameter, specifies a scale transformation for the container.</param>
         <param name="srcrect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that, together with the <c>dstrect</c> parameter, specifies a scale transformation for the container.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that, together with the <paramref name="dstrect" /> parameter, specifies a scale transformation for the container.</param>
         <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure for the container.</param>
         <summary>Saves a graphics container with the current state of this <see cref="T:System.Drawing.Graphics" /> and opens and uses a new graphics container with the specified scale transformation.</summary>
         <returns>This method returns a <see cref="T:System.Drawing.Drawing2D.GraphicsContainer" /> that represents the state of this <see cref="T:System.Drawing.Graphics" /> at the time of the method call.</returns>
@@ -308,6 +312,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.GraphicsContainer</ReturnType>
@@ -319,9 +324,9 @@
       </Parameters>
       <Docs>
         <param name="dstrect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that, together with the <c>srcrect</c> parameter, specifies a scale transformation for the new graphics container.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that, together with the <paramref name="srcrect" /> parameter, specifies a scale transformation for the new graphics container.</param>
         <param name="srcrect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that, together with the <c>dstrect</c> parameter, specifies a scale transformation for the new graphics container.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that, together with the <paramref name="dstrect" /> parameter, specifies a scale transformation for the new graphics container.</param>
         <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure for the container.</param>
         <summary>Saves a graphics container with the current state of this <see cref="T:System.Drawing.Graphics" /> and opens and uses a new graphics container with the specified scale transformation.</summary>
         <returns>This method returns a <see cref="T:System.Drawing.Drawing2D.GraphicsContainer" /> that represents the state of this <see cref="T:System.Drawing.Graphics" /> at the time of the method call.</returns>
@@ -384,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -431,6 +437,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -479,6 +486,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.RectangleF</ReturnType>
@@ -515,6 +523,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.CompositingMode</ReturnType>
@@ -552,6 +561,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.CompositingQuality</ReturnType>
@@ -594,6 +604,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -617,7 +628,7 @@
    
   
 ## Examples  
- The following example demonstrates how to use the <xref:System.Drawing.Graphics.CopyFromScreen%2A> method. To run this example, paste it into a Windows Form. Handle the form’s <xref:System.Windows.Forms.Control.Paint> event and call the `CopyPixels1` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
+ The following example demonstrates how to use the <xref:System.Drawing.Graphics.CopyFromScreen%2A> method. To run this example, paste it into a Windows Form. Handle the form's <xref:System.Windows.Forms.Control.Paint> event and call the `CopyPixels1` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
   
  [!code-csharp[System.Drawing.MiscWhidbeySnippets#4](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/CS/Form1.cs#4)]
  [!code-vb[System.Drawing.MiscWhidbeySnippets#4](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/VB/Form1.vb#4)]  
@@ -645,6 +656,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -670,7 +682,7 @@
    
   
 ## Examples  
- The following example demonstrates how to use the <xref:System.Drawing.Graphics.CopyFromScreen%2A> method. To run this example, paste it into a Windows Form. Handle the form’s <xref:System.Windows.Forms.Control.Paint> event and call the `CopyPixels2` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
+ The following example demonstrates how to use the <xref:System.Drawing.Graphics.CopyFromScreen%2A> method. To run this example, paste it into a Windows Form. Handle the form's <xref:System.Windows.Forms.Control.Paint> event and call the `CopyPixels2` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
   
  [!code-csharp[System.Drawing.MiscWhidbeySnippets#5](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/CS/Form1.cs#5)]
  [!code-vb[System.Drawing.MiscWhidbeySnippets#5](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/VB/Form1.vb#5)]  
@@ -701,6 +713,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -761,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -790,7 +804,7 @@
    
   
 ## Examples  
- The following example demonstrates how to use the <xref:System.Drawing.Graphics.CopyFromScreen%2A> method. To run this example, paste it into a Windows Form. Handle the form’s <xref:System.Windows.Forms.Control.Paint> event and call the `CopyPixels4` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
+ The following example demonstrates how to use the <xref:System.Drawing.Graphics.CopyFromScreen%2A> method. To run this example, paste it into a Windows Form. Handle the form's <xref:System.Windows.Forms.Control.Paint> event and call the `CopyPixels4` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
   
  [!code-csharp[System.Drawing.MiscWhidbeySnippets#7](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/CS/Form1.cs#7)]
  [!code-vb[System.Drawing.MiscWhidbeySnippets#7](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/VB/Form1.vb#7)]  
@@ -825,6 +839,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -878,6 +893,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -924,6 +940,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -978,6 +995,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -994,7 +1012,7 @@
         <param name="rect">
           <see cref="T:System.Drawing.RectangleF" /> structure that defines the boundaries of the ellipse.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the starting point of the arc.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to ending point of the arc.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc.</param>
         <summary>Draws an arc representing a portion of an ellipse specified by a <see cref="T:System.Drawing.Rectangle" /> structure.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1043,6 +1061,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1059,7 +1078,7 @@
         <param name="rect">
           <see cref="T:System.Drawing.RectangleF" /> structure that defines the boundaries of the ellipse.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the starting point of the arc.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to ending point of the arc.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc.</param>
         <summary>Draws an arc representing a portion of an ellipse specified by a <see cref="T:System.Drawing.RectangleF" /> structure.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1108,6 +1127,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1129,7 +1149,7 @@
         <param name="width">Width of the rectangle that defines the ellipse.</param>
         <param name="height">Height of the rectangle that defines the ellipse.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the starting point of the arc.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to ending point of the arc.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc.</param>
         <summary>Draws an arc representing a portion of an ellipse specified by a pair of coordinates, a width, and a height.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1159,7 +1179,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="rects" /> is a zero-length array.</exception>
+          <paramref name="pen" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="DrawArc">
@@ -1178,6 +1198,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1199,7 +1220,7 @@
         <param name="width">Width of the rectangle that defines the ellipse.</param>
         <param name="height">Height of the rectangle that defines the ellipse.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the starting point of the arc.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to ending point of the arc.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc.</param>
         <summary>Draws an arc representing a portion of an ellipse specified by a pair of coordinates, a width, and a height.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1257,6 +1278,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1323,6 +1345,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1389,6 +1412,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1468,6 +1492,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1528,6 +1553,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1597,6 +1623,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1665,6 +1692,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1733,6 +1761,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1807,6 +1836,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1890,6 +1920,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1958,6 +1989,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2026,6 +2058,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2098,6 +2131,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2170,6 +2204,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -2189,7 +2224,7 @@
         <param name="pen">
           <see cref="T:System.Drawing.Pen" /> that determines the color, width, and style of the curve.</param>
         <param name="points">Array of <see cref="T:System.Drawing.PointF" /> structures that define the spline.</param>
-        <param name="offset">Offset from the first element in the array of the <c>points</c> parameter to the starting point in the curve.</param>
+        <param name="offset">Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve.</param>
         <param name="numberOfSegments">Number of segments after the starting point to include in the curve.</param>
         <summary>Draws a cardinal spline through a specified array of <see cref="T:System.Drawing.PointF" /> structures. The drawing begins offset from the beginning of the array.</summary>
         <remarks>
@@ -2253,6 +2288,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2268,7 +2304,7 @@
         <param name="pen">
           <see cref="T:System.Drawing.Pen" /> that determines the color, width, and style of the curve.</param>
         <param name="points">Array of <see cref="T:System.Drawing.Point" /> structures that define the spline.</param>
-        <param name="offset">Offset from the first element in the array of the <c>points</c> parameter to the starting point in the curve.</param>
+        <param name="offset">Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve.</param>
         <param name="numberOfSegments">Number of segments after the starting point to include in the curve.</param>
         <param name="tension">Value greater than or equal to 0.0F that specifies the tension of the curve.</param>
         <summary>Draws a cardinal spline through a specified array of <see cref="T:System.Drawing.Point" /> structures using a specified tension.</summary>
@@ -2335,6 +2371,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2350,7 +2387,7 @@
         <param name="pen">
           <see cref="T:System.Drawing.Pen" /> that determines the color, width, and style of the curve.</param>
         <param name="points">Array of <see cref="T:System.Drawing.PointF" /> structures that define the spline.</param>
-        <param name="offset">Offset from the first element in the array of the <c>points</c> parameter to the starting point in the curve.</param>
+        <param name="offset">Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve.</param>
         <param name="numberOfSegments">Number of segments after the starting point to include in the curve.</param>
         <param name="tension">Value greater than or equal to 0.0F that specifies the tension of the curve.</param>
         <summary>Draws a cardinal spline through a specified array of <see cref="T:System.Drawing.PointF" /> structures using a specified tension. The drawing begins offset from the beginning of the array.</summary>
@@ -2426,6 +2463,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2483,6 +2521,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2540,6 +2579,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2602,6 +2642,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2673,6 +2714,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2685,7 +2727,7 @@
         <param name="icon">
           <see cref="T:System.Drawing.Icon" /> to draw.</param>
         <param name="targetRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the location and size of the resulting image on the display surface. The image contained in the <c>icon</c> parameter is scaled to the dimensions of this rectangular area.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the location and size of the resulting image on the display surface. The image contained in the <paramref name="icon" /> parameter is scaled to the dimensions of this rectangular area.</param>
         <summary>Draws the image represented by the specified <see cref="T:System.Drawing.Icon" /> within the area specified by a <see cref="T:System.Drawing.Rectangle" /> structure.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -2727,6 +2769,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2782,6 +2825,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2845,6 +2889,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2905,6 +2950,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2966,6 +3012,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3026,6 +3073,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3087,6 +3135,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3147,6 +3196,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3207,6 +3257,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3268,6 +3319,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3329,6 +3381,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -3349,8 +3402,8 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.Point" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3404,6 +3457,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3419,8 +3473,8 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3474,6 +3528,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3490,8 +3545,8 @@
         <param name="destRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the location and size of the drawn image. The image is scaled to fit the rectangle.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3543,6 +3598,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3559,8 +3615,8 @@
         <param name="destRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the location and size of the drawn image. The image is scaled to fit the rectangle.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3612,6 +3668,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -3633,10 +3690,10 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.Point" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3696,6 +3753,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -3717,10 +3775,10 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3780,6 +3838,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3797,8 +3856,8 @@
         <param name="x">The x-coordinate of the upper-left corner of the drawn image.</param>
         <param name="y">The y-coordinate of the upper-left corner of the drawn image.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <summary>Draws a portion of an image at a specified location.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3852,6 +3911,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3917,6 +3977,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3935,7 +3996,7 @@
         <param name="y">The y-coordinate of the upper-left corner of the drawn image.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <see cref="T:System.Drawing.Image" /> to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <summary>Draws a portion of an image at a specified location.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3989,6 +4050,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4054,6 +4116,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4076,10 +4139,10 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort)" /> method according to application-determined criteria.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
@@ -4147,6 +4210,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4169,10 +4233,10 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort)" /> method according to application-determined criteria.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
@@ -4240,6 +4304,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4258,10 +4323,10 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort,System.Int32)" /> method according to application-determined criteria.</param>
         <param name="callbackData">Value specifying additional data for the <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate to use when checking whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort,System.Int32)" /> method.</param>
@@ -4328,6 +4393,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4346,10 +4412,10 @@
           <see cref="T:System.Drawing.Image" /> to draw.</param>
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram.</param>
         <param name="srcRect">
-          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <c>image</c> object to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <c>srcRect</c> parameter.</param>
+          <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the <paramref name="image" /> object to draw.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used by the <paramref name="srcRect" /> parameter.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort,System.Int32)" /> method according to application-determined criteria.</param>
         <param name="callbackData">Value specifying additional data for the <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate to use when checking whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort,System.Int32)" /> method.</param>
@@ -4418,6 +4484,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4497,6 +4564,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4576,6 +4644,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4606,7 +4675,7 @@
         <param name="srcHeight">Height of the portion of the source image to draw.</param>
         <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used to determine the source rectangle.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -4664,6 +4733,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4694,7 +4764,7 @@
         <param name="srcHeight">Height of the portion of the source image to draw.</param>
         <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used to determine the source rectangle.</param>
         <param name="imageAttrs">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -4752,6 +4822,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4778,7 +4849,7 @@
         <param name="srcHeight">Height of the portion of the source image to draw.</param>
         <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used to determine the source rectangle.</param>
         <param name="imageAttr">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for <c>image</c>.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for <paramref name="image" />.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort)" /> method according to application-determined criteria.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
@@ -4844,6 +4915,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4870,7 +4942,7 @@
         <param name="srcHeight">Height of the portion of the source image to draw.</param>
         <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used to determine the source rectangle.</param>
         <param name="imageAttrs">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort)" /> method according to application-determined criteria.</param>
         <summary>Draws the specified portion of the specified <see cref="T:System.Drawing.Image" /> at the specified location and with the specified size.</summary>
@@ -4936,6 +5008,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4963,7 +5036,7 @@
         <param name="srcHeight">Height of the portion of the source image to draw.</param>
         <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used to determine the source rectangle.</param>
         <param name="imageAttrs">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort,System.IntPtr)" /> method according to application-determined criteria.</param>
         <param name="callbackData">Value specifying additional data for the <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate to use when checking whether to stop execution of the <see langword="DrawImage" /> method.</param>
@@ -5030,6 +5103,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5057,7 +5131,7 @@
         <param name="srcHeight">Height of the portion of the source image to draw.</param>
         <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the units of measure used to determine the source rectangle.</param>
         <param name="imageAttrs">
-          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <c>image</c> object.</param>
+          <see cref="T:System.Drawing.Imaging.ImageAttributes" /> that specifies recoloring and gamma information for the <paramref name="image" /> object.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate that specifies a method to call during the drawing of the image. This method is called frequently to check whether to stop execution of the <see cref="M:System.Drawing.Graphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes,System.Drawing.Graphics.DrawImageAbort,System.IntPtr)" /> method according to application-determined criteria.</param>
         <param name="callbackData">Value specifying additional data for the <see cref="T:System.Drawing.Graphics.DrawImageAbort" /> delegate to use when checking whether to stop execution of the <see langword="DrawImage" /> method.</param>
@@ -5133,6 +5207,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5192,6 +5267,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5236,6 +5312,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -5301,6 +5378,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -5354,6 +5432,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5370,7 +5449,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Examples  
- The following example demonstrates how to use the <xref:System.Drawing.Graphics.DrawImageUnscaledAndClipped%2A> method. To run this example, paste it into a Windows Form. Handle the form’s <xref:System.Windows.Forms.Control.Paint> event and call the `DrawImageUnscaled` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
+ The following example demonstrates how to use the <xref:System.Drawing.Graphics.DrawImageUnscaledAndClipped%2A> method. To run this example, paste it into a Windows Form. Handle the form's <xref:System.Windows.Forms.Control.Paint> event and call the `DrawImageUnscaled` method from the <xref:System.Windows.Forms.Control.Paint> event-handling method, passing `e` as <xref:System.Windows.Forms.PaintEventArgs>.  
   
  [!code-csharp[System.Drawing.MiscWhidbeySnippets#8](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/CS/Form1.cs#8)]
  [!code-vb[System.Drawing.MiscWhidbeySnippets#8](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Drawing.MiscWhidbeySnippets/VB/Form1.vb#8)]  
@@ -5406,6 +5485,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5462,6 +5542,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5523,6 +5604,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5586,6 +5668,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5658,6 +5741,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5718,6 +5802,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5778,6 +5863,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5848,6 +5934,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5864,7 +5951,7 @@
         <param name="rect">
           <see cref="T:System.Drawing.Rectangle" /> structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes.</param>
         <param name="startAngle">Angle measured in degrees clockwise from the x-axis to the first side of the pie shape.</param>
-        <param name="sweepAngle">Angle measured in degrees clockwise from the <c>startAngle</c> parameter to the second side of the pie shape.</param>
+        <param name="sweepAngle">Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape.</param>
         <summary>Draws a pie shape defined by an ellipse specified by a <see cref="T:System.Drawing.Rectangle" /> structure and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -5913,6 +6000,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5929,7 +6017,7 @@
         <param name="rect">
           <see cref="T:System.Drawing.RectangleF" /> structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes.</param>
         <param name="startAngle">Angle measured in degrees clockwise from the x-axis to the first side of the pie shape.</param>
-        <param name="sweepAngle">Angle measured in degrees clockwise from the <c>startAngle</c> parameter to the second side of the pie shape.</param>
+        <param name="sweepAngle">Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape.</param>
         <summary>Draws a pie shape defined by an ellipse specified by a <see cref="T:System.Drawing.RectangleF" /> structure and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -5978,6 +6066,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5999,7 +6088,7 @@
         <param name="width">Width of the bounding rectangle that defines the ellipse from which the pie shape comes.</param>
         <param name="height">Height of the bounding rectangle that defines the ellipse from which the pie shape comes.</param>
         <param name="startAngle">Angle measured in degrees clockwise from the x-axis to the first side of the pie shape.</param>
-        <param name="sweepAngle">Angle measured in degrees clockwise from the <c>startAngle</c> parameter to the second side of the pie shape.</param>
+        <param name="sweepAngle">Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape.</param>
         <summary>Draws a pie shape defined by an ellipse specified by a coordinate pair, a width, a height, and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -6048,6 +6137,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6069,7 +6159,7 @@
         <param name="width">Width of the bounding rectangle that defines the ellipse from which the pie shape comes.</param>
         <param name="height">Height of the bounding rectangle that defines the ellipse from which the pie shape comes.</param>
         <param name="startAngle">Angle measured in degrees clockwise from the x-axis to the first side of the pie shape.</param>
-        <param name="sweepAngle">Angle measured in degrees clockwise from the <c>startAngle</c> parameter to the second side of the pie shape.</param>
+        <param name="sweepAngle">Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape.</param>
         <summary>Draws a pie shape defined by an ellipse specified by a coordinate pair, a width, a height, and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -6127,6 +6217,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6183,6 +6274,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6252,6 +6344,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6307,6 +6400,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6369,6 +6463,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6439,6 +6534,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6496,6 +6592,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6562,6 +6659,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6629,6 +6727,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -6708,6 +6807,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6780,6 +6880,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6859,6 +6960,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -6927,6 +7029,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7001,6 +7104,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7076,6 +7180,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7130,6 +7235,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7180,6 +7286,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7231,6 +7338,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7283,6 +7391,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7334,6 +7443,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7385,6 +7495,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -7443,6 +7554,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -7499,6 +7611,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -7557,6 +7670,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7611,6 +7725,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -7669,6 +7784,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -7727,6 +7843,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7783,6 +7900,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7801,7 +7919,7 @@
           <see cref="T:System.Drawing.Point" /> structure that specifies the location of the upper-left corner of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <summary>Sends the records in a selected rectangle from a <see cref="T:System.Drawing.Imaging.Metafile" />, one at a time, to a callback method for display at a specified point.</summary>
@@ -7838,6 +7956,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7897,6 +8016,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -7914,7 +8034,7 @@
         <param name="destPoints">Array of three <see cref="T:System.Drawing.Point" /> structures that define a parallelogram that determines the size and location of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <summary>Sends the records in a selected rectangle from a <see cref="T:System.Drawing.Imaging.Metafile" />, one at a time, to a callback method for display in a specified parallelogram.</summary>
@@ -7955,6 +8075,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8013,6 +8134,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8031,7 +8153,7 @@
           <see cref="T:System.Drawing.PointF" /> structure that specifies the location of the upper-left corner of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <summary>Sends the records in a selected rectangle from a <see cref="T:System.Drawing.Imaging.Metafile" />, one at a time, to a callback method for display at a specified point.</summary>
@@ -8070,6 +8192,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8129,6 +8252,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8146,7 +8270,7 @@
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram that determines the size and location of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structures that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <summary>Sends the records in a selected rectangle from a <see cref="T:System.Drawing.Imaging.Metafile" />, one at a time, to a callback method for display in a specified parallelogram.</summary>
@@ -8188,6 +8312,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8246,6 +8371,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8264,7 +8390,7 @@
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the location and size of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <summary>Sends the records of a selected rectangle from a <see cref="T:System.Drawing.Imaging.Metafile" />, one at a time, to a callback method for display in a specified rectangle.</summary>
@@ -8304,6 +8430,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8362,6 +8489,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8380,7 +8508,7 @@
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the location and size of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <summary>Sends the records of a selected rectangle from a <see cref="T:System.Drawing.Imaging.Metafile" />, one at a time, to a callback method for display in a specified rectangle.</summary>
@@ -8420,6 +8548,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -8444,7 +8573,7 @@
           <see cref="T:System.Drawing.Point" /> structure that specifies the location of the upper-left corner of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8483,6 +8612,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -8506,7 +8636,7 @@
         <param name="destPoints">Array of three <see cref="T:System.Drawing.Point" /> structures that define a parallelogram that determines the size and location of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8549,6 +8679,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -8573,7 +8704,7 @@
           <see cref="T:System.Drawing.PointF" /> structure that specifies the location of the upper-left corner of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8614,6 +8745,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -8637,7 +8769,7 @@
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram that determines the size and location of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8680,6 +8812,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -8704,7 +8837,7 @@
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the location and size of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8745,6 +8878,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -8769,7 +8903,7 @@
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the location and size of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="srcUnit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8810,6 +8944,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8830,7 +8965,7 @@
           <see cref="T:System.Drawing.Point" /> structure that specifies the location of the upper-left corner of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8870,6 +9005,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8889,7 +9025,7 @@
         <param name="destPoints">Array of three <see cref="T:System.Drawing.Point" /> structures that define a parallelogram that determines the size and location of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -8936,6 +9072,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -8956,7 +9093,7 @@
           <see cref="T:System.Drawing.PointF" /> structure that specifies the location of the upper-left corner of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -9000,6 +9137,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9019,7 +9157,7 @@
         <param name="destPoints">Array of three <see cref="T:System.Drawing.PointF" /> structures that define a parallelogram that determines the size and location of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -9066,6 +9204,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9086,7 +9225,7 @@
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the location and size of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.Rectangle" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -9131,6 +9270,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9151,7 +9291,7 @@
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the location and size of the drawn metafile.</param>
         <param name="srcRect">
           <see cref="T:System.Drawing.RectangleF" /> structure that specifies the portion of the metafile, relative to its upper-left corner, to draw.</param>
-        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <c>srcRect</c> parameter contains.</param>
+        <param name="unit">Member of the <see cref="T:System.Drawing.GraphicsUnit" /> enumeration that specifies the unit of measure used to determine the portion of the metafile that the rectangle specified by the <paramref name="srcRect" /> parameter contains.</param>
         <param name="callback">
           <see cref="T:System.Drawing.Graphics.EnumerateMetafileProc" /> delegate that specifies the method to which the metafile records are sent.</param>
         <param name="callbackData">Internal pointer that is required, but ignored. You can pass <see cref="F:System.IntPtr.Zero" /> for this parameter.</param>
@@ -9206,6 +9346,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9262,6 +9403,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9325,6 +9467,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9391,6 +9534,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9457,6 +9601,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -9532,6 +9677,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -9607,6 +9753,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9679,6 +9826,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9759,6 +9907,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9816,6 +9965,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9873,6 +10023,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9935,6 +10086,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -9997,6 +10149,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10069,6 +10222,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10085,7 +10239,7 @@
         <param name="rect">
           <see cref="T:System.Drawing.Rectangle" /> structure that represents the bounding rectangle that defines the ellipse from which the pie section comes.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the first side of the pie section.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to the second side of the pie section.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section.</param>
         <summary>Fills the interior of a pie section defined by an ellipse specified by a <see cref="T:System.Drawing.RectangleF" /> structure and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -10134,6 +10288,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10155,7 +10310,7 @@
         <param name="width">Width of the bounding rectangle that defines the ellipse from which the pie section comes.</param>
         <param name="height">Height of the bounding rectangle that defines the ellipse from which the pie section comes.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the first side of the pie section.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to the second side of the pie section.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section.</param>
         <summary>Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -10204,6 +10359,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10225,7 +10381,7 @@
         <param name="width">Width of the bounding rectangle that defines the ellipse from which the pie section comes.</param>
         <param name="height">Height of the bounding rectangle that defines the ellipse from which the pie section comes.</param>
         <param name="startAngle">Angle in degrees measured clockwise from the x-axis to the first side of the pie section.</param>
-        <param name="sweepAngle">Angle in degrees measured clockwise from the <c>startAngle</c> parameter to the second side of the pie section.</param>
+        <param name="sweepAngle">Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section.</param>
         <summary>Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -10283,6 +10439,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -10348,6 +10505,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -10413,6 +10571,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10477,6 +10636,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10550,6 +10710,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10607,6 +10768,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10664,6 +10826,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10726,6 +10889,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10797,6 +10961,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10854,6 +11019,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10911,6 +11077,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -10975,6 +11142,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -11011,6 +11179,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -11050,6 +11219,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -11096,12 +11266,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -11163,12 +11331,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -11218,12 +11384,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -11264,12 +11428,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -11328,12 +11490,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -11373,6 +11533,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Graphics</ReturnType>
@@ -11457,12 +11618,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -11500,6 +11659,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IntPtr</ReturnType>
@@ -11565,6 +11725,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -11630,6 +11791,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Color</ReturnType>
@@ -11685,6 +11847,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.InterpolationMode</ReturnType>
@@ -11728,6 +11891,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -11787,6 +11951,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -11845,6 +12010,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -11908,6 +12074,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -11944,6 +12111,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -11996,6 +12164,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12048,6 +12217,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12100,6 +12270,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12152,6 +12323,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12205,6 +12377,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12258,6 +12431,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12315,6 +12489,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12372,6 +12547,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -12406,6 +12582,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Region[]</ReturnType>
@@ -12488,6 +12665,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.SizeF</ReturnType>
@@ -12552,6 +12730,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -12624,6 +12803,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.SizeF</ReturnType>
@@ -12692,6 +12872,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.SizeF</ReturnType>
@@ -12768,6 +12949,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.SizeF</ReturnType>
@@ -12842,6 +13024,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.SizeF</ReturnType>
@@ -12917,6 +13100,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.SizeF</ReturnType>
@@ -13008,6 +13192,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -13069,6 +13254,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13128,6 +13314,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -13169,6 +13356,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.GraphicsUnit</ReturnType>
@@ -13217,12 +13405,13 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.PixelOffsetMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or set a value specifying how pixels are offset during rendering of this <see cref="T:System.Drawing.Graphics" />.</summary>
+        <summary>Gets or sets a value specifying how pixels are offset during rendering of this <see cref="T:System.Drawing.Graphics" />.</summary>
         <value>This property specifies a member of the <see cref="T:System.Drawing.Drawing2D.PixelOffsetMode" /> enumeration</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -13262,6 +13451,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13298,12 +13488,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
@@ -13367,15 +13555,13 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.1;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -13409,6 +13595,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Point</ReturnType>
@@ -13436,6 +13623,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13491,6 +13679,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13544,6 +13733,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13616,6 +13806,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -13673,6 +13864,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13727,6 +13919,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.GraphicsState</ReturnType>
@@ -13796,6 +13989,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -13857,6 +14051,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -13924,6 +14119,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -13984,6 +14180,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -14041,6 +14238,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -14096,6 +14294,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -14150,6 +14349,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14206,6 +14406,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14259,6 +14460,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14310,6 +14512,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14361,6 +14564,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14413,6 +14617,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.SmoothingMode</ReturnType>
@@ -14460,6 +14665,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -14505,6 +14711,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Text.TextRenderingHint</ReturnType>
@@ -14553,6 +14760,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Drawing2D.Matrix</ReturnType>
@@ -14599,6 +14807,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14656,6 +14865,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14720,6 +14930,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14773,6 +14984,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14835,6 +15047,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -14900,6 +15113,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -14958,6 +15172,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.RectangleF</ReturnType>

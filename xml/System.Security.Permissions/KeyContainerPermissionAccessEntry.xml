@@ -24,8 +24,8 @@
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -183,7 +183,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This constructor allows access rights to be assigned for specific key containers. A `keySpec` or `providerType` value of –1 represents all key specifications or provider types. A `keyStore`, `providerName`, or `keyContainerName` of "*" represents all key stores, providers, or key containers. A `providerName` or `keyContainerName` that is `null` represents all providers or key containers.  
+ This constructor allows access rights to be assigned for specific key containers. A `keySpec` or `providerType` value of -1 represents all key specifications or provider types. A `keyStore`, `providerName`, or `keyContainerName` of "*" represents all key stores, providers, or key containers. A `providerName` or `keyContainerName` that is `null` represents all providers or key containers.  
   
    
   
@@ -379,7 +379,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Valid values for this property are AT_KEYEXCHANGE (1) and AT_SIGNATURE (2). The default value is –1, representing all possible values.  
+ Valid values for this property are AT_KEYEXCHANGE (1) and AT_SIGNATURE (2). The default value is -1, representing all possible values.  
   
  ]]></format>
         </remarks>
@@ -487,7 +487,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The default value is –1, representing all possible values.  
+ The default value is -1, representing all possible values.  
   
  The Wincrypt.h header file defines the following values:  
   

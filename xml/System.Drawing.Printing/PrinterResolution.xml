@@ -14,6 +14,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Drawing.Common</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.1</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -21,7 +22,7 @@
   <Interfaces />
   <Attributes>
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -68,6 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -103,6 +105,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -137,6 +140,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -165,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -186,7 +191,7 @@
 ## Remarks  
  `dmPrintQuality` is a member of the `DEVMODE` (device mode) structure, which defines constants that map to printer quality settings. The <xref:System.Drawing.Printing.PrinterResolution.X%2A> property contains the value `DMRES_HIGH` if <xref:System.Drawing.Printing.PrinterResolution.Kind%2A> is set to <xref:System.Drawing.Printing.PrinterResolutionKind.High>, `DMRES_MEDIUM` if <xref:System.Drawing.Printing.PrinterResolution.Kind%2A> is set to <xref:System.Drawing.Printing.PrinterResolutionKind.Medium>, `DMRES_LOW` if <xref:System.Drawing.Printing.PrinterResolution.Kind%2A> is set to <xref:System.Drawing.Printing.PrinterResolutionKind.Low>, and `DMRES_DRAFT` if <xref:System.Drawing.Printing.PrinterResolution.Kind%2A> is set to <xref:System.Drawing.Printing.PrinterResolutionKind.Draft>.  
   
- For more information about the `DEVMODE` structure, see the MSDN Library at [http://msdn.microsoft.com/library](https://msdn.microsoft.com/library).  
+ For more information, see [DEVMODE structure](/windows/desktop/api/wingdi/ns-wingdi-_devicemodea).  
   
  ]]></format>
         </remarks>
@@ -210,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">

@@ -643,7 +643,7 @@
       </Parameters>
       <Docs>
         <param name="context">The current <see cref="T:System.Web.HttpContext" /> of the request.</param>
-        <param name="control">The <see cref="T:System.Web.UI.Control" /> the parameter is bound to. If the parameter is not bound to a control, the <c>control</c> parameter is ignored.</param>
+        <param name="control">The <see cref="T:System.Web.UI.Control" /> the parameter is bound to. If the parameter is not bound to a control, the <paramref name="control" /> parameter is ignored.</param>
         <summary>Updates and returns the value of the <see cref="T:System.Web.UI.WebControls.Parameter" /> object.</summary>
         <returns>An <see langword="object" /> that represents the updated and current value of the parameter.</returns>
         <remarks>
@@ -1303,10 +1303,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>

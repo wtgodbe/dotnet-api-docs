@@ -20,7 +20,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-2.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1">
+    <Attribute FrameworkAlternate="netcore-2.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2">
       <AttributeName>System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Property)</AttributeName>
     </Attribute>
   </Attributes>
@@ -30,7 +30,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Each application settings class defines a group of application settings properties that represent information that persists between executions of the application. However, it is a settings provider—a class derived from <xref:System.Configuration.SettingsProvider>—that actually provides the storage mechanism.  
+ Each application settings class defines a group of application settings properties that represent information that persists between executions of the application. However, it is a settings provider - a class derived from <xref:System.Configuration.SettingsProvider> - that actually provides the storage mechanism.  
   
  The <xref:System.Configuration.SettingsProviderAttribute> specifies the settings provider used to provide storage for application settings properties. This attribute can be applied to the entire application settings class or individual application settings properties. A <xref:System.Configuration.SettingsProviderAttribute> set at the property level will override the class-level attribute. If a settings provider is not explicitly specified, the default provider is used. For client applications, the default provider is <xref:System.Configuration.LocalFileSettingsProvider>.  
   

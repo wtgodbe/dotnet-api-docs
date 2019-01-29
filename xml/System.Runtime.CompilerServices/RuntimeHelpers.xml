@@ -31,7 +31,7 @@
   <Interfaces />
   <Attributes>
     <Attribute FrameworkAlternate="netframework-1.1">
-      <AttributeName>Serializable</AttributeName>
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -208,7 +208,7 @@
       <Docs>
         <param name="code">A delegate to the code to try.</param>
         <param name="backoutCode">A delegate to the code to run if an exception occurs.</param>
-        <param name="userData">The data to pass to <c>code</c> and <c>backoutCode</c>.</param>
+        <param name="userData">The data to pass to <paramref name="code" /> and <paramref name="backoutCode" />.</param>
         <summary>Executes code using a <see cref="T:System.Delegate" /> while using another <see cref="T:System.Delegate" /> to execute additional code in case of an exception.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -970,8 +970,8 @@
         <Parameter Name="type" Type="System.RuntimeTypeHandle" />
       </Parameters>
       <Docs>
-        <param name="type">A type handle that specifies the class constructor method to run.</param>
-        <summary>Runs a specified class constructor method.</summary>
+        <param name="type">A type handle that specifies the type for which a type initializer should be run.</param>
+        <summary>Ensures that the type initializer (also known as a static constructor) for the specified type has been run.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -980,7 +980,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.TypeInitializationException">The class initializer throws an exception.</exception>
+        <exception cref="T:System.TypeInitializationException">The type initializer throws an exception.</exception>
       </Docs>
     </Member>
     <Member MemberName="RunModuleConstructor">

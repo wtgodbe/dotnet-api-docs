@@ -130,7 +130,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets the file the <see cref="T:Microsoft.VisualBasic.Logging.FileLogTraceListener" /> object that underlies the <see langword="Log" /> object.</summary>
-        <value>Returns the <see cref="T:Microsoft.VisualBasic.Logging.FileLogTraceListener" /> object that underlies the <see langword="Log" /> object.</value>
+        <value>The <see cref="T:Microsoft.VisualBasic.Logging.FileLogTraceListener" /> object that underlies the <see langword="Log" /> object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -198,10 +198,7 @@
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -213,7 +210,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets to the <see cref="T:System.Diagnostics.TraceSource" /> object that underlies the <see langword="Log" /> object.</summary>
-        <value>Returns the <see cref="T:System.Diagnostics.TraceSource" /> object that underlies the <see langword="Log" /> object.</value>
+        <value>The <see cref="T:System.Diagnostics.TraceSource" /> object that underlies the <see langword="Log" /> object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -278,7 +275,7 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Required. The message to log. If <c>message</c> is <see langword="Nothing" />, an empty string is used.</param>
+        <param name="message">Required. The message to log. If <paramref name="message" /> is <see langword="Nothing" />, an empty string is used.</param>
         <summary>Writes a message to the application's log listeners.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -365,7 +362,7 @@
         <Parameter Name="severity" Type="System.Diagnostics.TraceEventType" />
       </Parameters>
       <Docs>
-        <param name="message">Required. The message to log. If <c>message</c> is <see langword="Nothing" />, an empty string is used.</param>
+        <param name="message">Required. The message to log. If <paramref name="message" /> is <see langword="Nothing" />, an empty string is used.</param>
         <param name="severity">The type of message. By default, <see langword="TraceEventType.Information" />.</param>
         <summary>Writes a message to the application's log listeners.</summary>
         <remarks>
@@ -455,7 +452,7 @@
         <Parameter Name="id" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="message">Required. The message to log. If <c>message</c> is <see langword="Nothing" />, an empty string is used.</param>
+        <param name="message">Required. The message to log. If <paramref name="message" /> is <see langword="Nothing" />, an empty string is used.</param>
         <param name="severity">The type of message. By default, <see langword="TraceEventType.Information" />.</param>
         <param name="id">Message identifier, typically used for correlation. By default, related to <c>entryType</c> as described in the table.</param>
         <summary>Writes a message to the application's log listeners.</summary>

@@ -10,6 +10,7 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.2.0.0</AssemblyVersion>
     <AssemblyVersion>4.4.0.0</AssemblyVersion>
+    <AssemblyVersion>4.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Data</AssemblyName>
@@ -80,7 +81,7 @@
   
  ]]></format>
     </remarks>
-    <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+    <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
     <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
     <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
     <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -110,6 +111,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -144,7 +146,7 @@
         <exception cref="T:System.ArgumentException">The <see cref="T:System.Data.SqlClient.SqlParameter" /> specified in the <paramref name="value" /> parameter is already added to this or another <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</exception>
         <exception cref="T:System.InvalidCastException">The parameter passed was not a <see cref="T:System.Data.SqlClient.SqlParameter" />.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="value" /> parameter is null.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -166,6 +168,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -179,10 +182,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -197,7 +197,7 @@
         <summary>Adds the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> object to the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <returns>The index of the new <see cref="T:System.Data.SqlClient.SqlParameter" /> object.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -215,6 +215,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -248,7 +249,7 @@
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -273,13 +274,10 @@
         <AssemblyName>System.Data.SqlClient</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName>System.Obsolete("Do not call this method.")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
@@ -332,6 +330,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -372,7 +371,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -395,6 +394,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.SqlClient.SqlParameter</ReturnType>
@@ -421,7 +421,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -451,6 +451,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -472,7 +473,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="values">The <see cref="T:System.Array" /> values to add.</param>
         <summary>Adds an array of values to the end of the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -491,6 +492,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -512,7 +514,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="values">The <see cref="T:System.Data.SqlClient.SqlParameter" /> values to add.</param>
         <summary>Adds an array of <see cref="T:System.Data.SqlClient.SqlParameter" /> values to the end of the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -531,6 +533,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -572,7 +575,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -594,6 +597,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -613,7 +617,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
       <Docs>
         <summary>Removes all the <see cref="T:System.Data.SqlClient.SqlParameter" /> objects from the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -627,7 +631,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
       </AssemblyInfo>
       <Docs>
         <summary>Determines whether the specified object is in this <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -646,6 +650,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -667,9 +672,9 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="value">The <see cref="T:System.Data.SqlClient.SqlParameter" /> value.</param>
         <summary>Determines whether the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> is in this <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <returns>
-          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> contains the value; otherwise <see langword="false" />.</returns>
+          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> contains the value; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -691,6 +696,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -713,9 +719,9 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="value">The <see cref="T:System.Object" /> value.</param>
         <summary>Determines whether the specified <see cref="T:System.Object" /> is in this <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <returns>
-          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> contains the value; otherwise <see langword="false" />.</returns>
+          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> contains the value; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -737,6 +743,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -759,9 +766,9 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="value">The <see cref="T:System.String" /> value.</param>
         <summary>Determines whether the specified parameter name is in this <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <returns>
-          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> contains the value; otherwise <see langword="false" />.</returns>
+          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> contains the value; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -793,6 +800,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -817,7 +825,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="index">A 32-bit integer that represents the index in the <see cref="T:System.Array" /> at which copying starts.</param>
         <summary>Copies all the elements of the current <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> to the specified one-dimensional <see cref="T:System.Array" /> starting at the specified destination <see cref="T:System.Array" /> index.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -836,6 +844,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -859,7 +868,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="index">A 32-bit integer that represents the index in the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> at which copying starts.</param>
         <summary>Copies all the elements of the current <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> to the specified <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> starting at the specified destination index.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -881,6 +890,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -927,6 +937,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -947,7 +958,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <summary>Returns an enumerator that iterates through the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <returns>An <see cref="T:System.Collections.IEnumerator" /> for the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -966,6 +977,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1003,6 +1015,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1051,6 +1064,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1073,7 +1087,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <summary>Gets the location of the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> within the collection.</summary>
         <returns>The zero-based location of the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> that is a <see cref="T:System.Data.SqlClient.SqlParameter" /> within the collection. Returns -1 when the object does not exist in the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1095,6 +1109,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1118,7 +1133,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <summary>Gets the location of the specified <see cref="T:System.Object" /> within the collection.</summary>
         <returns>The zero-based location of the specified <see cref="T:System.Object" /> that is a <see cref="T:System.Data.SqlClient.SqlParameter" /> within the collection. Returns -1 when the object does not exist in the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1140,6 +1155,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1163,7 +1179,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <summary>Gets the location of the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> with the specified name.</summary>
         <returns>The zero-based location of the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> with the specified case-sensitive name. Returns -1 when the object does not exist in the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</returns>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1193,6 +1209,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1216,7 +1233,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="value">A <see cref="T:System.Data.SqlClient.SqlParameter" /> object to be inserted in the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</param>
         <summary>Inserts a <see cref="T:System.Data.SqlClient.SqlParameter" /> object into the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> at the specified index.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1238,6 +1255,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1262,7 +1280,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="value">An <see cref="T:System.Object" /> to be inserted in the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</param>
         <summary>Inserts an <see cref="T:System.Object" /> into the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> at the specified index.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1288,15 +1306,17 @@ parameters.Add("@pname", Convert.ToInt32(0));
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a value that indicates whether the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> has a fixed size.</summary>
-        <value>Returns <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> has a fixed size; otherwise <see langword="false" />.</value>
+        <value>
+          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> has a fixed size; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1322,15 +1342,17 @@ parameters.Add("@pname", Convert.ToInt32(0));
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a value that indicates whether the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> is read-only.</summary>
-        <value>Returns <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> is read only; otherwise <see langword="false" />.</value>
+        <value>
+          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> is read-only; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1361,9 +1383,10 @@ parameters.Add("@pname", Convert.ToInt32(0));
       </ReturnValue>
       <Docs>
         <summary>Gets a value that indicates whether the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> is synchronized.</summary>
-        <value>Returns <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> is synchronized; otherwise <see langword="false" />.</value>
+        <value>
+          <see langword="true" /> if the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> is synchronized; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1393,6 +1416,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1409,10 +1433,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -1437,7 +1458,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
  ]]></format>
         </remarks>
         <exception cref="T:System.IndexOutOfRangeException">The specified index does not exist.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1456,6 +1477,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1472,10 +1494,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -1498,7 +1517,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
  ]]></format>
         </remarks>
         <exception cref="T:System.IndexOutOfRangeException">The specified <paramref name="parameterName" /> is not valid.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1528,6 +1547,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1561,7 +1581,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         </remarks>
         <exception cref="T:System.InvalidCastException">The parameter is not a <see cref="T:System.Data.SqlClient.SqlParameter" />.</exception>
         <exception cref="T:System.SystemException">The parameter does not exist in the collection.</exception>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1583,6 +1603,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1605,7 +1626,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="value">The object to remove from the collection.</param>
         <summary>Removes the specified <see cref="T:System.Data.SqlClient.SqlParameter" /> from the collection.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1638,6 +1659,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1660,7 +1682,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="index">The zero-based index of the <see cref="T:System.Data.SqlClient.SqlParameter" /> object to remove.</param>
         <summary>Removes the <see cref="T:System.Data.SqlClient.SqlParameter" /> from the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> at the specified index.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1682,6 +1704,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1704,7 +1727,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <param name="parameterName">The name of the <see cref="T:System.Data.SqlClient.SqlParameter" /> to remove.</param>
         <summary>Removes the <see cref="T:System.Data.SqlClient.SqlParameter" /> from the <see cref="T:System.Data.SqlClient.SqlParameterCollection" /> at the specified parameter name.</summary>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -1723,6 +1746,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1761,6 +1785,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1802,6 +1827,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
+        <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1820,7 +1846,7 @@ parameters.Add("@pname", Convert.ToInt32(0));
         <summary>Gets an object that can be used to synchronize access to the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</summary>
         <value>An object that can be used to synchronize access to the <see cref="T:System.Data.SqlClient.SqlParameterCollection" />.</value>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/b623f810-d871-49a5-b0f5-078cc3c34db6">Commands and Parameters (ADO.NET)</related>
+        <related type="Article" href="~/docs/framework/data/adonet/commands-and-parameters.md">Commands and Parameters (ADO.NET)</related>
         <related type="Article" href="https://msdn.microsoft.com/library/f21e6aba-b76d-46ad-a83e-2ad8e0af1e12">DataAdapter Parameters (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/sql/index.md">Using the .NET Framework Data Provider for SQL Server</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>

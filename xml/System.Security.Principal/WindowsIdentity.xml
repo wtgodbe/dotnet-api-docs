@@ -40,8 +40,8 @@
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
       <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>Serializable</AttributeName>
+    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -155,6 +155,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Security.Principal.Windows</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -582,7 +583,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-2.0">
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>get: System.Security.SecurityCritical</AttributeName>
         </Attribute>
       </Attributes>
@@ -680,6 +681,9 @@
         <Attribute FrameworkAlternate="netframework-4.6">
           <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Security.Principal.WindowsIdentity/&lt;get_Claims&gt;d__1))</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2">
+          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Security.Principal.WindowsIdentity/&lt;get_Claims&gt;d__79))</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Security.Claims.Claim&gt;</ReturnType>
@@ -759,6 +763,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Security.Principal.Windows</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -906,8 +911,20 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Releases the resources held by the current instance.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+## Remarks  
+
+> [!NOTE]
+> This member is removed in the .NET Framework version 2.0 and subsequent versions.
+
+
+Application code does not call this method; it is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled. For more information, see <xref:System.GC.SuppressFinalize%2A?displayProperty=nameWithType> and <xref:System.Object.Finalize>. This method overrides <xref:System.Object.Finalize>.
+
+]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAnonymous">
@@ -1790,7 +1807,7 @@ public class ImpersonationDemo
         <param name="safeAccessTokenHandle">The SafeAccessTokenHandle of the impersonated Windows identity.</param>
         <param name="func">The System.Func to run.</param>
         <summary>Runs the specified function as the impersonated Windows identity. Instead of using an impersonated method call and running your function in <see cref="T:System.Security.Principal.WindowsImpersonationContext" />, you can use <see cref="M:System.Security.Principal.WindowsIdentity.RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action)" /> and provide your function directly as a parameter.</summary>
-        <returns>Returns the result of the function.</returns>
+        <returns>The result of the function.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2076,6 +2093,7 @@ public class ImpersonationDemo
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Security.Principal.Windows</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

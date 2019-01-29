@@ -313,7 +313,7 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">The name of the HTTP header to add <c>value</c> to.</param>
+        <param name="name">The name of the HTTP header to add <paramref name="value" /> to.</param>
         <param name="value">The string to add to the header.</param>
         <summary>Adds an HTTP header to the current response. This method is provided for compatibility with earlier versions of ASP.</summary>
         <remarks>To be added.</remarks>
@@ -343,10 +343,8 @@
       </Parameters>
       <Docs>
         <param name="callback">The callback method.</param>
-        <summary>[Supported in the .NET Framework 4.5.2 and later versions]  
-  
- Registers a callback that the ASP.NET runtime will invoke immediately before response headers are sent for this request.</summary>
-        <returns>Returns  an <see cref="T:System.Web.ISubscriptionToken" /> object that represents the subscription to the OnSendingHeaders pseudo event..</returns>
+        <summary>Registers a callback that the ASP.NET runtime will invoke immediately before response headers are sent for this request.</summary>
+        <returns>Returns an <see cref="T:System.Web.ISubscriptionToken" /> object that represents the subscription to the OnSendingHeaders pseudo event.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1207,9 +1205,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>[Supported in the .NET Framework 4.5.2 and later versions]  
-  
- Gets a value indicating whether the response headers have been written.</summary>
+        <summary>Gets a value indicating whether the response headers have been written.</summary>
         <value>
           <see langword="true" /> if the response headers have been written; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
@@ -2266,9 +2262,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>[Supported in the .NET Framework 4.5.2 and later versions]  
-  
- Gets or sets a value indicating whether to suppress the default <c>Cache Control: private</c> header for the current HTTP response.</summary>
+        <summary>Gets or sets a value indicating whether to suppress the default <c>Cache Control: private</c> header for the current HTTP response.</summary>
         <value>Returns <see cref="T:System.Boolean" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -2379,7 +2373,7 @@
       <Docs>
         <param name="filename">The name of the file to write to the HTTP output stream.</param>
         <param name="offset">The position in the file where writing starts.</param>
-        <param name="length">The number of bytes to write, starting at <c>offset</c>.</param>
+        <param name="length">The number of bytes to write, starting at <paramref name="offset" />.</param>
         <summary>Writes the specified part of a file to the HTTP response output stream, without buffering it in memory.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotImplementedException">Always.</exception>
@@ -2535,7 +2529,7 @@
       <Docs>
         <param name="buffer">The character array to write.</param>
         <param name="index">The position in the character array where writing starts.</param>
-        <param name="count">The number of characters to write, starting at <c>index</c>.</param>
+        <param name="count">The number of characters to write, starting at <paramref name="index" />.</param>
         <summary>Writes the specified array of characters to the HTTP response output stream.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotImplementedException">Always.</exception>
@@ -2638,7 +2632,7 @@
       <Docs>
         <param name="fileHandle">The file handle of the file to write to the HTTP output stream.</param>
         <param name="offset">The position in the file where writing starts.</param>
-        <param name="size">The number of bytes to write, starting at <c>offset</c>.</param>
+        <param name="size">The number of bytes to write, starting at <paramref name="offset" />.</param>
         <summary>Writes the specified file to the HTTP response output stream.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotImplementedException">Always.</exception>
@@ -2671,7 +2665,7 @@
       <Docs>
         <param name="filename">The name of the file to write to the HTTP output stream.</param>
         <param name="offset">The position in the file where writing starts.</param>
-        <param name="size">The number of bytes to write, starting at <c>offset</c>.</param>
+        <param name="size">The number of bytes to write, starting at <paramref name="offset" />.</param>
         <summary>Writes the specified file to the HTTP response output stream.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotImplementedException">Always.</exception>

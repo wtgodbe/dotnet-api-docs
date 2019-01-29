@@ -243,8 +243,8 @@
       </Parameters>
       <Docs>
         <param name="webPart">The <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> (or server or user control) to be added to a Web page or opened on a page.</param>
-        <param name="zone">The <see cref="T:System.Web.UI.WebControls.WebParts.WebPartZoneBase" /> that <c>webPart</c> is being added to.</param>
-        <param name="zoneIndex">An integer that represents the ordinal position that <c>webPart</c> occupies in <c>zone</c>, relative to other controls in <c>zone</c>.</param>
+        <param name="zone">The <see cref="T:System.Web.UI.WebControls.WebParts.WebPartZoneBase" /> that <paramref name="webPart" /> is being added to.</param>
+        <param name="zoneIndex">An integer that represents the ordinal position that <paramref name="webPart" /> occupies in <paramref name="zone" />, relative to other controls in <paramref name="zone" />.</param>
         <summary>Provides the standard programmatic method for adding <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> controls to a Web page.</summary>
         <returns>A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> control that was added to the page.</returns>
         <remarks>
@@ -269,13 +269,13 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="webPart" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="zone" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="zone" /> is not registered in the <see cref="T:System.Web.UI.WebControls.WebParts.WebPartManager" /> control's collection of zones.  
   
- \- or -  
+-or-
   
  <paramref name="webPart" /> is already in <paramref name="zone" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The value of <paramref name="zoneIndex" /> is less than zero.</exception>
@@ -343,10 +343,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -402,7 +399,7 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="webPart" /> is closed.  
   
- \- or -  
+-or-
   
  <paramref name="webPart" /> is not part of the <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.Controls" /> collection.  
   
@@ -450,7 +447,7 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="webPart" /> is closed.  
   
- \- or -  
+-or-
   
  <paramref name="webPart" /> is not part of the <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.Controls" /> collection.  
   
@@ -573,10 +570,10 @@
         <Parameter Name="consumerConnectionPoint" Type="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint" />
       </Parameters>
       <Docs>
-        <param name="provider">The control that provides data to <c>consumer</c> when the controls are connected.</param>
-        <param name="providerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that enables <c>provider</c> to participate in a connection.</param>
-        <param name="consumer">The control that receives data from <c>provider</c> when the controls are connected.</param>
-        <param name="consumerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that acts as a callback method so that <c>consumer</c> can participate in a connection.</param>
+        <param name="provider">The control that provides data to <paramref name="consumer" /> when the controls are connected.</param>
+        <param name="providerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that enables <paramref name="provider" /> to participate in a connection.</param>
+        <param name="consumer">The control that receives data from <paramref name="provider" /> when the controls are connected.</param>
+        <param name="consumerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that acts as a callback method so that <paramref name="consumer" /> can participate in a connection.</param>
         <summary>Checks the <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> controls that will be participating in a connection to determine whether they are capable of being connected, when the consumer and provider controls have compatible interfaces and a <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> object is not needed.</summary>
         <returns>A Boolean value that indicates whether <paramref name="provider" /> and <paramref name="consumer" /> can be connected.</returns>
         <remarks>
@@ -649,11 +646,11 @@
         <Parameter Name="transformer" Type="System.Web.UI.WebControls.WebParts.WebPartTransformer" />
       </Parameters>
       <Docs>
-        <param name="provider">The control that provides data to <c>consumer</c> when the controls are connected.</param>
-        <param name="providerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that acts as a callback method so that <c>provider</c> can participate in a connection.</param>
-        <param name="consumer">The control that receives data from <c>provider</c> when the controls are connected.</param>
-        <param name="consumerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that acts as a callback method so that <c>consumer</c> can participate in a connection.</param>
-        <param name="transformer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> that enables an incompatible <c>provider</c> and <c>consumer</c> to connect.</param>
+        <param name="provider">The control that provides data to <paramref name="consumer" /> when the controls are connected.</param>
+        <param name="providerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that acts as a callback method so that <paramref name="provider" /> can participate in a connection.</param>
+        <param name="consumer">The control that receives data from <paramref name="provider" /> when the controls are connected.</param>
+        <param name="consumerConnectionPoint">A <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> that acts as a callback method so that <paramref name="consumer" /> can participate in a connection.</param>
+        <param name="transformer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> that enables an incompatible <paramref name="provider" /> and <paramref name="consumer" /> to connect.</param>
         <summary>Checks the <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> controls that will be participating in a connection to determine whether they are capable of being connected, and uses a <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> object to create the connection between an incompatible consumer and provider.</summary>
         <returns>A Boolean value that indicates whether <paramref name="provider" /> and <paramref name="consumer" /> can form a connection.</returns>
         <remarks>
@@ -873,7 +870,7 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="webPart" /> is not in the <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.Controls" /> collection.  
   
- \- or -  
+-or-
   
  <paramref name="webPart" /> is a shared control and has already been closed by another user.</exception>
         <altmember cref="P:System.Web.UI.WebControls.WebParts.WebPart.AllowClose" />
@@ -962,10 +959,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -1145,9 +1139,9 @@
       </Parameters>
       <Docs>
         <param name="provider">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> control that has the role of furnishing data to another connected control.</param>
-        <param name="providerConnectionPoint">A method that serves as a callback method for the connection. As implemented in the Web Parts control set, this is a public method in <c>provider</c> that is marked with a <see langword="ConnectionProvider" /> metadata attribute.</param>
-        <param name="consumer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> control that has the role of receiving data from <c>provider</c>, and then processing or displaying it.</param>
-        <param name="consumerConnectionPoint">A method that connects with <c>providerConnectionPoint</c> to receive the data for the connection. As implemented in the Web Parts control set, this is a public method in <c>consumer</c> that is marked with a <see langword="ConnectionConsumer" /> metadata attribute.</param>
+        <param name="providerConnectionPoint">A method that serves as a callback method for the connection. As implemented in the Web Parts control set, this is a public method in <paramref name="provider" /> that is marked with a <see langword="ConnectionProvider" /> metadata attribute.</param>
+        <param name="consumer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> control that has the role of receiving data from <paramref name="provider" />, and then processing or displaying it.</param>
+        <param name="consumerConnectionPoint">A method that connects with <paramref name="providerConnectionPoint" /> to receive the data for the connection. As implemented in the Web Parts control set, this is a public method in <paramref name="consumer" /> that is marked with a <see langword="ConnectionConsumer" /> metadata attribute.</param>
         <summary>Creates a connection between two <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> or <see cref="T:System.Web.UI.WebControls.WebParts.GenericWebPart" /> controls using only the references to the controls and their specified <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> objects.</summary>
         <returns>A <see cref="T:System.Web.UI.WebControls.WebParts.WebPartConnection" /> that contains the various information about the provider and the consumer needed for a connection.</returns>
         <remarks>
@@ -1203,10 +1197,10 @@
       </Parameters>
       <Docs>
         <param name="provider">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> that has the role of furnishing data to another connected control.</param>
-        <param name="providerConnectionPoint">A public method in <c>provider</c> that is marked with a <see langword="ConnectionProvider" /> metadata attribute, and serves as a callback method for the connection.</param>
-        <param name="consumer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> that has the role of receiving data from <c>provider</c> or <c>transformer</c>, and then processing or displaying it.</param>
-        <param name="consumerConnectionPoint">A public method in <c>consumer</c> that is marked with a <see langword="ConnectionConsumer" /> metadata attribute, and connects with <c>providerConnectionPoint</c> to receive the data for the connection.</param>
-        <param name="transformer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> that enables a connection between two controls by converting the data from <c>provider</c> to a format that <c>consumer</c> can process.</param>
+        <param name="providerConnectionPoint">A public method in <paramref name="provider" /> that is marked with a <see langword="ConnectionProvider" /> metadata attribute, and serves as a callback method for the connection.</param>
+        <param name="consumer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> that has the role of receiving data from <paramref name="provider" /> or <paramref name="transformer" />, and then processing or displaying it.</param>
+        <param name="consumerConnectionPoint">A public method in <paramref name="consumer" /> that is marked with a <see langword="ConnectionConsumer" /> metadata attribute, and connects with <paramref name="providerConnectionPoint" /> to receive the data for the connection.</param>
+        <param name="transformer">A <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> that enables a connection between two controls by converting the data from <paramref name="provider" /> to a format that <paramref name="consumer" /> can process.</param>
         <summary>Creates a connection between two <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> or <see cref="T:System.Web.UI.WebControls.WebParts.GenericWebPart" /> controls using the references to the controls, their specified <see cref="T:System.Web.UI.WebControls.WebParts.ConnectionPoint" /> objects, and a <see cref="T:System.Web.UI.WebControls.WebParts.WebPartTransformer" /> object.</summary>
         <returns>A <see cref="T:System.Web.UI.WebControls.WebParts.WebPartConnection" /> that contains the information about the provider, consumer, and transformer needed for a connection.</returns>
         <remarks>
@@ -1239,10 +1233,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -1968,15 +1959,15 @@
         <exception cref="T:System.InvalidOperationException">
           <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.StaticConnections" /> is read-only.  
   
- \- or -  
+-or-
   
  <paramref name="connection" /> has already been disconnected from <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.StaticConnections" />.  
   
- \- or -  
+-or-
   
  <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.DynamicConnections" /> is read-only.  
   
- \- or -  
+-or-
   
  <paramref name="connection" /> has already been disconnected from <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.DynamicConnections" />.</exception>
         <block subset="none" type="overrides">
@@ -2003,10 +1994,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -2047,7 +2035,7 @@
         <exception cref="T:System.ArgumentNullException">The <see cref="T:System.Web.UI.WebControls.WebParts.WebPartDisplayMode" /> object being assigned to the property is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">The <see cref="T:System.Web.UI.WebControls.WebParts.WebPartDisplayMode" /> object being assigned to the property is not one of the supported display modes.  
   
- \- or -  
+-or-
   
  The <see cref="T:System.Web.UI.WebControls.WebParts.WebPartDisplayMode" /> object being assigned to the property is disabled.</exception>
         <altmember cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModes" />
@@ -2140,10 +2128,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -2330,10 +2315,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DefaultValue(true)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -2509,7 +2491,7 @@
       </Parameters>
       <Docs>
         <param name="webPart">The control from which data will be exported.</param>
-        <param name="writer">An <see cref="T:System.Xml.XmlWriter" /> that writes the exported data from <c>webPart</c> to an XML description file.</param>
+        <param name="writer">An <see cref="T:System.Xml.XmlWriter" /> that writes the exported data from <paramref name="webPart" /> to an XML description file.</param>
         <summary>Creates an XML description file that contains state and property data for a server control.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -2529,13 +2511,13 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="webPart" /> is <see langword="null" />.  
   
- \- or -  
+-or-
   
  <paramref name="writer" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="webPart" /> is not contained in the collection of controls referenced in <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.Controls" />.  
   
- \- or -  
+-or-
   
  The <see cref="P:System.Web.UI.WebControls.WebParts.WebPart.ExportMode" /> property of <paramref name="webPart" /> is set to a value of <see cref="F:System.Web.UI.WebControls.WebParts.WebPartExportMode.None" />, which means that export is disabled for <paramref name="webPart" />.</exception>
         <altmember cref="P:System.Web.UI.WebControls.WebParts.WebPart.ExportMode" />
@@ -2557,10 +2539,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -2938,11 +2917,11 @@
         <exception cref="T:System.IO.EndOfStreamException">
           <paramref name="reader" /> could not read the file.  
   
- \- or -  
+-or-
   
  <paramref name="reader" /> needed to display an import error message but did not find one in the file.  
   
- \- or -  
+-or-
   
  <paramref name="reader" /> reached the end of the file without finding the XML element that contains the exported data.</exception>
         <altmember cref="T:System.Web.UI.WebControls.WebParts.ImportCatalogPart" />
@@ -2964,10 +2943,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -3189,7 +3165,7 @@ else
         <exception cref="T:System.ArgumentException">
           <paramref name="type" /> is a user control, and <paramref name="path" /> is either <see langword="null" /> or an empty string ("").  
   
- \- or -  
+-or-
   
  <paramref name="type" /> is not a user control, and <paramref name="path" /> has a value assigned to it.</exception>
         <block subset="none" type="overrides">
@@ -3401,8 +3377,8 @@ else
       </Parameters>
       <Docs>
         <param name="webPart">The <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> or other server control being moved.</param>
-        <param name="zone">The target <see cref="T:System.Web.UI.WebControls.WebParts.WebPartZoneBase" /> to which <c>webPart</c> is being moved.</param>
-        <param name="zoneIndex">An integer that indicates the index of <c>webPart</c> relative to other controls within <c>zone</c>.</param>
+        <param name="zone">The target <see cref="T:System.Web.UI.WebControls.WebParts.WebPartZoneBase" /> to which <paramref name="webPart" /> is being moved.</param>
+        <param name="zoneIndex">An integer that indicates the index of <paramref name="webPart" /> relative to other controls within <paramref name="zone" />.</param>
         <summary>Moves a <see cref="T:System.Web.UI.WebControls.WebParts.WebPart" /> or server control from one <see cref="T:System.Web.UI.WebControls.WebParts.WebPartZoneBase" /> zone to another, or to a new position within the same zone.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3449,11 +3425,11 @@ else
         <exception cref="T:System.ArgumentException">
           <paramref name="webPart" /> is not contained in the <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.Controls" /> collection of the <see cref="T:System.Web.UI.WebControls.WebParts.WebPartManager" /> control.  
   
- \- or -  
+-or-
   
  <paramref name="zone" /> is not contained in the <see cref="P:System.Web.UI.WebControls.WebParts.WebPartManager.Zones" /> collection of the <see cref="T:System.Web.UI.WebControls.WebParts.WebPartManager" /> control.  
   
- \- or -  
+-or-
   
  The zone referenced by the <paramref name="webPart" /> control's <see cref="P:System.Web.UI.WebControls.WebParts.WebPart.Zone" /> property is <see langword="null" />, which means that <paramref name="webPart" /> is not currently contained in a zone.</exception>
         <exception cref="T:System.ArgumentNullException">
@@ -4381,16 +4357,13 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.NotifyParentProperty(true)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Web.UI.PersistenceMode(System.Web.UI.PersistenceMode.InnerProperty)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Content)</AttributeName>
         </Attribute>
       </Attributes>
@@ -4579,10 +4552,7 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4777,10 +4747,7 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -4823,16 +4790,13 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.MergableProperty(false)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Web.UI.PersistenceMode(System.Web.UI.PersistenceMode.InnerProperty)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Content)</AttributeName>
         </Attribute>
       </Attributes>
@@ -4897,10 +4861,7 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -5188,16 +5149,10 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
@@ -5504,10 +5459,7 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
       </Attributes>
@@ -5705,10 +5657,7 @@ protected void mgr1_AuthorizeWebPart(object sender,
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
