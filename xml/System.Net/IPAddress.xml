@@ -1,4 +1,4 @@
-<Type Name="IPAddress" FullName="System.Net.IPAddress">
+﻿<Type Name="IPAddress" FullName="System.Net.IPAddress">
   <TypeSignature Language="C#" Value="public class IPAddress" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit IPAddress extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Net.IPAddress" />
@@ -318,6 +318,9 @@
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName>System.Obsolete("IPAddress.Address is address family dependant, use Equals method for comparison.")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0">
+          <AttributeName>System.Obsolete("This property has been deprecated. It is address family dependent. Please use IPAddress.Equals method to perform comparisons. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
