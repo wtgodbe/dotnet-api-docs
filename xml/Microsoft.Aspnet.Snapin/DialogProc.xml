@@ -23,7 +23,7 @@
   </ReturnValue>
   <Docs>
     <param name="hwndDlg">A handle to the dialog box.</param>
-    <param name="uMsg">The message.</param>
+    <param name="uMsg">The message is here.</param>
     <param name="wParam">Additional message-specific information.</param>
     <param name="lParam">Additional message-specific information.</param>
     <summary>Processes messages that are sent to a modal or modeless dialog box.</summary>
